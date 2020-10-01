@@ -61,11 +61,5 @@ th{
 .menu a:hover {
     background-color: #CC673B;
 }
-.menu ul li ul {
-    display: none;
-}
-.menu ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-    display: block;
-}
 
 
