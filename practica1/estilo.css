@@ -44,7 +44,6 @@ th{
     text-transform: uppercase;
     font-weight: bolder;
 }
-
 .menu ul {
     display: flex;
     padding: 0;
@@ -63,7 +62,4 @@ th{
 }
 nav{
     align-self: center;
-    width: fit-content;
 }
-
-
