@@ -53,13 +53,20 @@ nav{
 .menu li{
     width: 34%;
 }
-#outer{
+section{
     position:relative
 }
-#inner{
+#imagenIndex{
     position:relative;
     float: right;
     width:40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#imagenProtas{
+    position:relative;
+    float: left;
+    width:50%;
     margin-top: 10px;
     margin-left: 10px;
 }
