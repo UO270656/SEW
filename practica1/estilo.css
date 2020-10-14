@@ -1,49 +1,30 @@
 body {
-      font: 400 15px Tahoma; /*Familia sans-serif*/
-      line-height: 1.8;
-      color: #818181;
-      
-  }
+    font: 400 15px Tahoma; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: rgb(223, 214, 181);
+    background-color:rgb(7, 15, 36);
+}
 h1.principal{
-    color: darkslategrey;
-    background-color: khaki;
+    color: rgb(223, 214, 181);
+    background-color: rgb(7, 15, 36);
     margin: 0;
     text-align: center;
     padding: 5px 25px;
     text-transform: uppercase;
 }
 h1 {
-      background-color: darkslategrey; 
-      color:khaki;
-      text-transform: uppercase;
-      padding: 30px 25px;
-      text-align: center;    
-      margin: 0%; 
-  }
-h2{
+    background-color:  rgb(1, 32, 32); 
+    color:rgb(223, 214, 181);
     text-transform: uppercase;
-    color: darkslategrey;
+    padding: 30px 25px;
+    text-align: center;    
+    margin: 0%; 
 }
 ol{
     list-style:none ;
 }
 ol li::before {content: "\2022\ ";color: darkslategrey}
 
-table{
-    width:50%;
-    text-align: center;
-    border:2px solid slategray;
-    align-self: center;
-}
-td{
-    border:2px solid slategray;
-}
-th{
-    border:2px solid slategray;
-    color: darkslategrey;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
 .menu ul {
     display: flex;
     padding: 0;
@@ -54,14 +35,16 @@ th{
 .menu a {
     display: block;
     padding: 2em;
-    background-color: #F9B53C;
+    background-color: rgb(223, 214, 181);
     text-align: center;
     text-decoration: none;
     color: #191C26;
+    text-transform: uppercase;
 }
 .menu a:hover {
-    background-color: #CC673B;
+    color: #CC673B;
     text-align: center;
+    text-transform: uppercase;
 }
 nav{
     align-self: center;
@@ -69,4 +52,14 @@ nav{
 }
 .menu li{
     width: 34%;
+}
+#outer{
+    position:relative
+}
+#inner{
+    position:relative;
+    float: right;
+    width:40%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
