@@ -30,7 +30,7 @@ td{
 }
 th{
   border:2px solid #CC673B;
-  color: rgb(240, 209, 72);
+  color: #CC673B;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -62,7 +62,7 @@ nav{
 .menu li{
   width: 34%;
 }
-section{
+div{
   position:relative
 }
 #imagenMerch{
