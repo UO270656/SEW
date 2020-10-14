@@ -48,18 +48,25 @@ th{
     display: flex;
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: none;   
+    width: 100%;
 }
 .menu a {
     display: block;
     padding: 2em;
     background-color: #F9B53C;
+    text-align: center;
     text-decoration: none;
     color: #191C26;
 }
 .menu a:hover {
     background-color: #CC673B;
+    text-align: center;
 }
 nav{
     align-self: center;
+    width: 100%;
+}
+.menu li{
+    width: 34%;
 }
