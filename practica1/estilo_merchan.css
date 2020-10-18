@@ -24,6 +24,8 @@ table{
   width:50%;
   text-align: center;
   border:2px solid #CC673B;
+  position: relative;
+  float:left;
 }
 td{
   border:2px solid #CC673B;
@@ -67,6 +69,6 @@ div{
 }
 #imagenMerch{
   position: relative;
-  float:left;
+  float:right;
   width:50%;
 }

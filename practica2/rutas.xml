@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas>
+    <ruta>
+        <nombre>Ruta del miedevo</nombre>
+        <tipo>Arquitectura y monumentos</tipo>
+        <dificultad>alta</dificultad>
+        <fecha_ini></fecha_ini>
+        <hora_ini></hora_ini>
+        <duracion>78 minutos</duracion>
+        <agencia></agencia>
+        <descripcion>Esta ruta te permite ver todos los monumentos de la capital en un trazado sinuoso entre los edificios mas característicos de Oviedo</descripcion>
+        <target>Apto solo para publico experimentado en el manejo de drones</target>
+        <lugar_ini>Oviedo</lugar_ini>
+        <direccion_ini></direccion_ini>
+        <long_ini></long_ini>
+        <lat_ini></lat_ini>
+        <alt_ini></alt_ini>
+        <referencias>
+            <referencia></referencia>
+            <referencia></referencia>
+            <referencia></referencia>
+        </referencias>
+        <recomendacion>7</recomendacion>
+        <hitos>
+            <hito nombre="hito1">
+                <descripcion></descripcion>
+                <long_hito></long_hito>
+                <lat_hito></lat_hito>
+                <alt_hito></alt_hito>
+                <distancia_h_anterior unidades="metros"></distancia_h_anterior>
+                <tiempo_h_anterior></tiempo_h_anterior>
+                <fotografias>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                </fotografias>
+                <videos>
+                    <video></video>
+                    <video></video>
+                    <video></video>
+                </videos>
+            </hitos>
+            <hito nombre="hito2">
+            </hitos>
+            <hito nombre="hito3">
+            </hitos>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre></nombre>
+        <tipo></tipo>
+        <dificultad></dificultad>
+        <fecha_ini></fecha_ini>
+        <hora_ini></hora_ini>
+        <duracion></duracion>
+        <agencia></agencia>
+        <descripcion></descripcion>
+        <target></target>
+        <lugar_ini></lugar_ini>
+        <direccion_ini></direccion_ini>
+        <long_ini></long_ini>
+        <lat_ini></lat_ini>
+        <alt_ini></alt_ini>
+        <referencias>
+            <referencia></referencia>
+            <referencia></referencia>
+            <referencia></referencia>
+        </referencias>
+        <recomendacion></recomendacion>
+        <hitos>
+            <hito nombre="hito1">
+                <descripcion></descripcion>
+                <long_hito></long_hito>
+                <lat_hito></lat_hito>
+                <alt_hito></alt_hito>
+                <distancia_h_anterior unidades="metros"></distancia_h_anterior>
+                <tiempo_h_anterior></tiempo_h_anterior>
+                <fotografias>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                </fotografias>
+                <videos>
+                    <video></video>
+                    <video></video>
+                    <video></video>
+                </videos>
+            </hitos>
+            <hito nombre="hito2">
+            </hitos>
+            <hito nombre="hito3">
+            </hitos>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre></nombre>
+        <tipo></tipo>
+        <dificultad></dificultad>
+        <fecha_ini></fecha_ini>
+        <hora_ini></hora_ini>
+        <duracion></duracion>
+        <agencia></agencia>
+        <descripcion></descripcion>
+        <target></target>
+        <lugar_ini></lugar_ini>
+        <direccion_ini></direccion_ini>
+        <long_ini></long_ini>
+        <lat_ini></lat_ini>
+        <alt_ini></alt_ini>
+        <referencias>
+            <referencia></referencia>
+            <referencia></referencia>
+            <referencia></referencia>
+        </referencias>
+        <recomendacion></recomendacion>
+        <hitos>
+            <hito nombre="hito1">
+                <descripcion></descripcion>
+                <long_hito></long_hito>
+                <lat_hito></lat_hito>
+                <alt_hito></alt_hito>
+                <distancia_h_anterior unidades="metros"></distancia_h_anterior>
+                <tiempo_h_anterior></tiempo_h_anterior>
+                <fotografias>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                    <foto></foto>
+                </fotografias>
+                <videos>
+                    <video></video>
+                    <video></video>
+                    <video></video>
+                </videos>
+            </hitos>
+            <hito nombre="hito2">
+            </hitos>
+            <hito nombre="hito3">
+            </hitos>
+        </hitos>
+    </ruta>
+</rutas>
