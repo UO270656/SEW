@@ -72,7 +72,7 @@ ol li::before {
     text-align: center;
     text-transform: uppercase;
 }
-ul li a{
+a{
     color: rgb(255, 129, 0);
     background-color:  rgb(7, 15, 36);
 }
