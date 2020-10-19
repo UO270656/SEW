@@ -85,3 +85,10 @@ div{
   float:right;
   width:40%;
 }
+/*Selector specificity (1,0,0)*/
+#credits{
+  font: 400 15px Tahoma; /*Familia sans-serif*/
+  line-height: 1.8;
+  color: #CC673B;
+  background-color:rgb(7, 15, 36);
+}
