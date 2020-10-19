@@ -84,7 +84,4 @@ div{
     line-height: 1.8;
     color: rgb(255, 129, 0);
     background-color: transparent;
-    position:absolute; /*El div será ubicado con relación a la pantalla*/
-    right:10px; /*A la izquierda deje un espacio de 0px*/
-    bottom:0px; /*Abajo deje un espacio de 0px*/
   }
