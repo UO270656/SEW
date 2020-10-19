@@ -1,9 +1,11 @@
+/*Selector specificity (0,0,1)*/
 body {
     font: 400 15px Tahoma; /*Familia sans-serif*/
     line-height: 1.8;
     color: rgb(223, 214, 181);
     background-color:rgb(7, 15, 36);
 }
+/*Selector specificity (0,1,1)*/
 h1.principal{
     color: rgb(223, 214, 181);
     background-color: rgb(7, 15, 36);
@@ -12,7 +14,8 @@ h1.principal{
     padding: 5px 25px;
     text-transform: uppercase;
 }
-h1 {
+/*Selector specificity (0,0,1)*/
+h2 {
     background-color:  rgb(1, 32, 32); 
     color:rgb(223, 214, 181);
     text-transform: uppercase;
@@ -20,7 +23,8 @@ h1 {
     text-align: center;    
     margin: 0%; 
 }
-h2{
+/*Selector specificity (0,0,1)*/
+h3{
     color: rgb(223, 214, 181);
     background-color: rgb(7, 15, 36);
     margin: 0;
@@ -28,13 +32,16 @@ h2{
     padding: 5px 25px;
     text-transform: uppercase;
 }
+/*Selector specificity (0,0,1)*/
 ol{
     list-style:none ;
     width:50%;
     float: right;
 }
+/*Selector specificity (0,0,3)*/
 ol li::before {content: "\2022\ ";color: darkslategrey}
 
+/*Selector specificity (0,1,1)*/
 .menu ul {
     display: flex;
     padding: 0;
@@ -42,6 +49,7 @@ ol li::before {content: "\2022\ ";color: darkslategrey}
     list-style: none;   
     width: 100%;
 }
+/*Selector specificity (0,1,1)*/
 .menu a {
     display: block;
     padding: 2em;
@@ -51,21 +59,26 @@ ol li::before {content: "\2022\ ";color: darkslategrey}
     color: #191C26;
     text-transform: uppercase;
 }
+/*Selector specificity (0,2,1)*/
 .menu a:hover {
     color: #CC673B;
     text-align: center;
     text-transform: uppercase;
 }
+/*Selector specificity (0,0,1)*/
 nav{
     align-self: center;
     width: 100%;
 }
+/*Selector specificity (0,1,1)*/
 .menu li{
     width: 34%;
 }
+/*Selector specificity (0,0,1)*/
 div{
     position:relative
 }
+/*Selector specificity (0,0,1)*/
 img{
     position:relative;
     float: left;
