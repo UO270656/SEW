@@ -4,6 +4,7 @@ body {
   line-height: 1.8;
   color: rgb(223, 214, 181);
   background-color:rgb(7, 15, 36);
+  height: 100%;
 }
 /*Selector specificity (0,1,1)*/
 h1.principal{
@@ -90,5 +91,7 @@ div{
   font: 400 15px Tahoma; /*Familia sans-serif*/
   line-height: 1.8;
   color: #CC673B;
-  background-color:rgb(7, 15, 36);
+  position:absolute; /*El div será ubicado con relación a la pantalla*/
+  left:10px; /*A la izquierda deje un espacio de 0px*/
+  bottom:0px; /*Abajo deje un espacio de 0px*/
 }
