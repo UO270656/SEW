@@ -1,6 +1,7 @@
 /*Selector specificity (0,0,1)*/
 body {
-    font: 400 15px Tahoma; /*Familia sans-serif*/
+    font-size: 15px;
+    font-family:Tahoma, serif;
     line-height: 1.8;
     color: rgb(223, 214, 181);
     background-color:rgb(7, 15, 36);
@@ -29,7 +30,8 @@ ol{
     list-style:none ;
 }
 /*Selector specificity (0,0,3)*/
-ol li::before {content: "\2022\ ";color: darkslategrey}
+ol li::before {content: "\2022\ ";color: darkslategrey;
+    background-color:rgb(7, 15, 36);}
 
 /*Selector specificity (0,1,1)*/
 .menu ul {
@@ -52,6 +54,7 @@ ol li::before {content: "\2022\ ";color: darkslategrey}
 /*Selector specificity (0,2,1)*/
 .menu a:hover {
     color: #CC673B;
+    background-color: rgb(223, 214, 181);
     text-align: center;
     text-transform: uppercase;
 }
@@ -78,9 +81,9 @@ div{
 }
 /*Selector specificity (1,0,0)*/
 #credits{
-    font: 400 15px Tahoma; /*Familia sans-serif*/
     line-height: 1.8;
     color: #CC673B;
+    background-color: transparent;
     position:absolute; /*El div será ubicado con relación a la pantalla*/
     right:10px; /*A la izquierda deje un espacio de 0px*/
     bottom:0px; /*Abajo deje un espacio de 0px*/
