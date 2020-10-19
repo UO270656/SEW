@@ -1,6 +1,6 @@
 /*Selector specificity (0,0,1)*/
 body {
-  font-size: 15px;
+  font-size: 14px;
   font-family:Tahoma, serif;
   line-height: 1.8;
   color: rgb(223, 214, 181);
@@ -29,18 +29,18 @@ h2 {
 table{
   width:50%;
   text-align: center;
-  border:2px solid #CC673B;
+  border:2px solid rgb(255, 129, 0);
   position: relative;
   float:left;
 }
 /*Selector specificity (0,0,1)*/
 td{
-  border:2px solid #CC673B;
+  border:2px solid rgb(255, 129, 0);
 }
 /*Selector specificity (0,0,1)*/
 th{
   border:2px solid #CC673B;
-  color: #CC673B;
+  color: rgb(255, 129, 0);
   background-color: rgb(7, 15, 36);
   text-transform: uppercase;
   font-weight: bolder;
@@ -65,7 +65,7 @@ th{
 }
 /*Selector specificity (0,2,1)*/
 .menu a:hover {
-  color: #CC673B;
+  color: rgb(119, 0, 0);
   background-color: rgb(223, 214, 181);
   text-align: center;
   text-transform: uppercase;
@@ -92,7 +92,8 @@ div{
 /*Selector specificity (1,0,0)*/
 #credits{
   line-height: 1.8;
-  color: #CC673B;
+  font-style: bold;
+  color: rgb(255, 129, 0);
   background-color: transparent;
   position:absolute; /*El div será ubicado con relación a la pantalla*/
   left:10px; /*A la izquierda deje un espacio de 0px*/
