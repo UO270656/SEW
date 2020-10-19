@@ -41,6 +41,7 @@ td{
 th{
   border:2px solid #CC673B;
   color: #CC673B;
+  background-color: rgb(7, 15, 36);
   text-transform: uppercase;
   font-weight: bolder;
 }

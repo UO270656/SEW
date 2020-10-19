@@ -41,7 +41,11 @@ ol{
     float: right;
 }
 /*Selector specificity (0,0,3)*/
-ol li::before {content: "\2022\ ";color: darkslategrey}
+ol li::before {
+    content: "\2022\ ";
+    color: darkslategrey;
+    background-color: rgb(7, 15, 36);
+}
 
 /*Selector specificity (0,1,1)*/
 .menu ul {
