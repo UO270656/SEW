@@ -53,7 +53,7 @@ ol li::before {content: "\2022\ ";color: darkslategrey;
 }
 /*Selector specificity (0,2,1)*/
 .menu a:hover {
-    color: #CC673B;
+    color: #d13f00;
     background-color: rgb(223, 214, 181);
     text-align: center;
     text-transform: uppercase;
@@ -82,7 +82,7 @@ div{
 /*Selector specificity (1,0,0)*/
 #credits{
     line-height: 1.8;
-    color: #CC673B;
+    color: #d13f00;
     background-color: transparent;
     position:absolute; /*El div será ubicado con relación a la pantalla*/
     right:10px; /*A la izquierda deje un espacio de 0px*/
