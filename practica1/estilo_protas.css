@@ -72,6 +72,10 @@ ol li::before {
     text-align: center;
     text-transform: uppercase;
 }
+li a{
+    color: #CC673B;
+    background-color:  rgb(7, 15, 36);
+}
 /*Selector specificity (0,0,1)*/
 nav{
     align-self: center;
