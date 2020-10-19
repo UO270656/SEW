@@ -29,18 +29,18 @@ h2 {
 table{
   width:50%;
   text-align: center;
-  border:2px solid #d13f00;
+  border:2px solid #CC673B;
   position: relative;
   float:left;
 }
 /*Selector specificity (0,0,1)*/
 td{
-  border:2px solid #d13f00;
+  border:2px solid #CC673B;
 }
 /*Selector specificity (0,0,1)*/
 th{
-  border:2px solid #d13f00;
-  color: #d13f00;
+  border:2px solid #CC673B;
+  color: #CC673B;
   background-color: rgb(7, 15, 36);
   text-transform: uppercase;
   font-weight: bolder;
@@ -65,7 +65,7 @@ th{
 }
 /*Selector specificity (0,2,1)*/
 .menu a:hover {
-  color: #d13f00;
+  color: #CC673B;
   background-color: rgb(223, 214, 181);
   text-align: center;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ div{
 /*Selector specificity (1,0,0)*/
 #credits{
   line-height: 1.8;
-  color: #d13f00;
+  color: #CC673B;
   background-color: transparent;
   position:absolute; /*El div será ubicado con relación a la pantalla*/
   left:10px; /*A la izquierda deje un espacio de 0px*/
