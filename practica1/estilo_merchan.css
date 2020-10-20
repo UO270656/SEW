@@ -87,7 +87,6 @@ div{
 /*Selector specificity (1,0,0)*/
 #credits{
   line-height: 1.8;
-  font-style: bold;
   color: rgb(255, 129, 0);
   background-color: transparent;
   position:relative;
