@@ -1,0 +1,38 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta  (fecha_ini, hora_ini, duracion, agencia, descripcion, target, lugar_ini, direccion_ini, long_ini, lat_ini, alt_ini, referencias, recomendacion, hitos)>
+<!ELEMENT fecha_ini (#PCDATA)>
+<!ELEMENT hora_ini (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT target (#PCDATA)>
+<!ELEMENT lugar_ini (#PCDATA)>
+<!ELEMENT direccion_ini (#PCDATA)>
+<!ELEMENT long_ini (#PCDATA)>
+<!ELEMENT lat_ini (#PCDATA)>
+<!ELEMENT alt_ini (#PCDATA)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (descripcion, long_hito, lat_hito, alt_hito, distancia_h_anterior, tiempo_h_anterior, fotografias, videos)>
+<!ELEMENT long_hito (#PCDATA)>
+<!ELEMENT lat_hito (#PCDATA)>
+<!ELEMENT alt_hito (#PCDATA)>
+<!ELEMENT distancia_h_anterior (#PCDATA)>
+<!ELEMENT tiempo_h_anterior (#PCDATA)>
+<!ELEMENT fotografias (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST ruta nombre CDATA #REQUIRED>
+<!ATTLIST ruta tipo CDATA #REQUIRED>
+<!ATTLIST ruta dificultad CDATA #REQUIRED>
+<!ATTLIST fecha_ini formato CDATA #REQUIRED>
+<!ATTLIST hora_ini indicador CDATA #REQUIRED>
+<!ATTLIST duracion unidad CDATA #REQUIRED>
+<!ATTLIST alt_ini unidad CDATA #REQUIRED>
+<!ATTLIST hito nombre CDATA #REQUIRED>
+<!ATTLIST alt_hito unidades CDATA #REQUIRED>
+<!ATTLIST distancia_h_anterior unidades CDATA #REQUIRED>
+<!ATTLIST tiempo_h_anterior unidades CDATA #REQUIRED>
