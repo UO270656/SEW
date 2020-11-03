@@ -1,0 +1,28 @@
+Aplicacion creada con JAVA
+Version del compilador: JavaSE-1.8
+Y se utilizó el archivo smilFile.smil para las pruebas
+
+-------------------Instrucciones de uso---------------
+Es una aplicacion que simula una playlist de musica,
+para ello se le debe de pasar un archivo SMIL, con los datos
+de la etiqueta <head> incluidos. En la etiqueta <body> es necesario
+que haya la etiqueta <seq>, puesto que simula una playlist y queremos
+que se reproduzcan en secuencia y no a la vez. Dentro de la etiqueta <seq>
+puede o no haber etiqutas de <audio>. (Al ser un simulador de playlist solo
+vamos a utlizar audios aunque deberia funcionar tambien para videos)
+
+La aplicacion se inicia pasandole un archivo smil que es el que va a 
+representar nuestra playlist. Con esta aplicacion podemos editarlo.
+
+Podemos hacer dos cosas:
+
+	A - añadir nuevas canciones a la playlist:
+		Para ello la aplicacion nos pedirá la ruta del archivo de audio,
+		el delay (si queremos) que va a tener el audio, en que segundo 
+		empieza el clip, en que segundo acaba y si queremos añadirlo al
+		principio o al final de la cola.
+
+	B - modificar una cancion de la playlist
+		Para ello la aplicacion nos pedira la ruta del archivo de audio
+		que vamos a modificar. Nos pedirá tambien los nuevos datos de 
+		delay, en que segundo empieza el clip y en que segundo acaba.

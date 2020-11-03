@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><smil>
+   <head>
+                <meta content="Jane Morales" name="author"/>
+                <meta content="Multimedia My Way" name="title"/>
+                <meta content="(c)1998 Jane Morales" name="copyright"/>
+   </head>
+   <body>
+                <seq>
+				<audio clip-begin="10.0" clip-end="80.0" delay="0" src="pruebaCMD"/>
+				<audio clip-begin="0.0" clip-end="57.0" delay="0" src="wg"/>
+                  <audio src="audio/newsong.wav"/>
+                  <audio src="audio/oldsong.snd"/>
+                <audio clip-begin="0.0" clip-end="10.0" delay="0" src="p"/>
+				<audio clip-begin="10.0" clip-end="20.0" delay="0" src="pr"/>
+				</seq>
+    </body>
+</smil>
