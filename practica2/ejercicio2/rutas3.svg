@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0">
+<rect x="25" y="25" width="200" height="375" fill="none" stroke-width="4" stroke="red" />
+<text x="50" y="405" fill="black" style="writing-mode: tb;">Inicio</text>
+<polyline points="50,150 100,250 150,395 200,385 " stroke="red" stroke-width="4" fill="none" />
+<text x="100" y="405" fill="black" style="writing-mode: tb;">MUJA</text>
+<text x="150" y="405" fill="black" style="writing-mode: tb;">La playa de la Griega</text>
+<text x="200" y="405" fill="black" style="writing-mode: tb;">Acantilado de Lastres</text>
+<text x="230" y="400" fill="black" >Nivel del mar</text>
+<text x="230" y="200" fill="brown" >200 metros</text>
+<line x1="25" y1="200" x2="225" y2="200" stroke="brown" stroke-width="6"/></svg>

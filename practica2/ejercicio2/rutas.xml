@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+  <ruta nombre="Ruta del miedevo" tipo="Arquitectura y monumentos" dificultad="alta">
+    <fecha_ini formato="DD/MM/AAAA">28/10/2020</fecha_ini>
+    <hora_ini indicador="AM">09:00</hora_ini>
+    <duracion unidad="minutos">78</duracion>
+    <agencia>Dronsturias</agencia>
+    <descripcion>Esta ruta te permite ver todos los monumentos de la capital en un trazado sinuoso entre los edificios mas caracteristicos de Oviedo</descripcion>
+    <target>Apto solo para publico experimentado en el manejo de drones</target>
+    <lugar_ini>Oviedo</lugar_ini>
+    <direccion_ini>Plaza Alfonso II el Casto, s/n, 33003 Oviedo, Asturias</direccion_ini>
+    <long_ini>43.362287</long_ini>
+    <lat_ini>-5.844144</lat_ini>
+    <alt_ini unidad="metros">230</alt_ini>
+    <referencias> 
+      <referencia>https://es.wikipedia.org/wiki/Monumentos_de_Oviedo_y_del_Reino_de_Asturias</referencia>
+      <referencia>http://el.tesorodeoviedo.es/index.php?title=Plaza_del_Paraguas</referencia>
+      <referencia>https://buendiatours.com/es/guias/oviedo/monumentos-principales</referencia>
+    </referencias>
+    <recomendacion>7</recomendacion>
+    <hitos>
+      <hito nombre="Foncalada">
+        <descripcion>La Foncalada” de Oviedo , esta considerada como el monumento civil en uso continuado mas antiguo de Espanna, 
+        pues hasta principios del Siglo XX, aun era utilizada por las mujeres como lavadero.Fue declarado como Patrimonio de la Humanidad por la UNESCO en el anno 1985.
+        </descripcion>
+        <long_hito>43.365253</long_hito>
+        <lat_hito>-5.846022</lat_hito>
+        <alt_hito unidades="metros">200</alt_hito>
+        <distancia_h_anterior unidades="metros">350</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">10</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F80%2FFuente_de_Foncalada_en_Oviedo.JPG&amp;imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FFoncalada&amp;tbnid=N3buj56WMZl39M&amp;vet=12ahUKEwj4-fyA9eHsAhUJLxoKHWKcApkQMygAegUIARCqAQ..i&amp;docid=3PoAdK54ksXhMM&amp;w=3456&amp;h=2304&amp;q=foncalada%20oviedo&amp;ved=2ahUKEwj4-fyA9eHsAhUJLxoKHWKcApkQMygAegUIARCqAQ</foto>
+          <foto>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FFoncalada&amp;psig=AOvVaw1qimzzHTVuV8FLzxcqO3qo&amp;ust=1604339633659000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCOiTxYf14ewCFQAAAAAdAAAAABAI</foto>
+          <foto>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.turismoasturias.es%2Fdescubre%2Fcultura%2Fprerromanico%2Fla-foncalada&amp;psig=AOvVaw1qimzzHTVuV8FLzxcqO3qo&amp;ust=1604339633659000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCOiTxYf14ewCFQAAAAAdAAAAABAN</foto>
+          <foto>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.turismoasturias.es%2Fdescubre%2Fcultura%2Fprerromanico%2Fla-foncalada&amp;psig=AOvVaw1qimzzHTVuV8FLzxcqO3qo&amp;ust=1604339633659000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCOiTxYf14ewCFQAAAAAdAAAAABAT</foto>
+          <foto>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.rtpa.es%2Fnoticias-sociedad%3ALa-Fuente-de-Foncalada-podria-dejar-de-ser-Patrimonio-de-la-Humanidad_111310825318.html&amp;psig=AOvVaw1qimzzHTVuV8FLzxcqO3qo&amp;ust=1604339633659000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCOiTxYf14ewCFQAAAAAdAAAAABAY</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=dJjctAOSyW8</video>
+          <video>https://www.youtube.com/watch?v=nMKLRvEKjkE&amp;t=20s</video>
+          <video>https://www.youtube.com/watch?v=uDNZvHwY5JA</video>
+        </videos>
+      </hito>
+      <hito nombre="La Plaza de la Escandalera">
+        <descripcion>La Plaza de la Escandalera es sin duda, la plaza mas conocida de Oviedo. En ella los mayores descansan al sol en sus bancos, 
+        es punto de encuentro para jovenes, y lugar de paso para todos los ovetenses. Enlaza la zona comercial, el casco antiguo y el centro político de la ciudad.
+        </descripcion>
+        <long_hito>43.365253</long_hito>
+        <lat_hito>-5.846022</lat_hito>
+        <alt_hito unidades="metros">225</alt_hito>
+        <distancia_h_anterior unidades="metros">390</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">13</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F1d%2FCasa_Conde._Plaza_Escandalera._Oviedo.jpg&amp;imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FPlaza_de_la_Escandalera&amp;tbnid=foffn9gYZqgeqM&amp;vet=12ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygAegUIARCXAQ..i&amp;docid=fHHiWXad9lIf5M&amp;w=2592&amp;h=1944&amp;q=plaza%20de%20la%20escandalera%20oviedo&amp;ved=2ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygAegUIARCXAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.elcomercio.es%2Fwww%2Fpre2017%2Fmultimedia%2Fnoticias%2F201103%2F31%2FMedia%2FEF0BYVP1--253x180.jpg&amp;imgrefurl=https%3A%2F%2Fwww.elcomercio.es%2Fv%2F20110331%2Foviedo%2Fanos-escandalera-20110331.html&amp;tbnid=VBqwdH0uLNa0lM&amp;vet=12ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygBegUIARCZAQ..i&amp;docid=WmXq6HzJL7Li9M&amp;w=253&amp;h=180&amp;q=plaza%20de%20la%20escandalera%20oviedo&amp;ved=2ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygBegUIARCZAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fblogkoke.files.wordpress.com%2F2014%2F02%2Fescandaleraactual.jpg&amp;imgrefurl=https%3A%2F%2Fblogkoke.wordpress.com%2F2014%2F03%2F17%2Fpor-que-se-llama-plaza-de-la-escandalera%2F&amp;tbnid=2IFPGl36cLq72M&amp;vet=12ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygCegUIARCbAQ..i&amp;docid=pwbJkdkm_WVL1M&amp;w=1600&amp;h=1200&amp;q=plaza%20de%20la%20escandalera%20oviedo&amp;ved=2ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygCegUIARCbAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.avoz.es%2F%2Fdefault%2F2020%2F01%2F16%2F00121579196208120761817%2FFoto%2F5.jpg&amp;imgrefurl=https%3A%2F%2Fwww.lavozdeasturias.es%2Fnoticia%2Foviedo%2F2020%2F01%2F16%2Fhistoria-escandalera-15-fotografias%2F00031579196818889474748.htm&amp;tbnid=pd0-fY3ebM57sM&amp;vet=12ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygDegUIARCdAQ..i&amp;docid=JGeZRHtGP_T4kM&amp;w=1280&amp;h=720&amp;q=plaza%20de%20la%20escandalera%20oviedo&amp;ved=2ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygDegUIARCdAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgs-akamai.mnstatic.com%2Fdf%2Feb%2Fdfeb7b996808d7a9a50e89bc6ee80acd.jpg&amp;imgrefurl=https%3A%2F%2Fwww.minube.com%2Frincon%2Fplaza-de-la-escandalera-a65724&amp;tbnid=zj0RqTtNvelYMM&amp;vet=12ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygEegUIARCfAQ..i&amp;docid=6CrkJEfZAWNLtM&amp;w=1024&amp;h=768&amp;q=plaza%20de%20la%20escandalera%20oviedo&amp;ved=2ahUKEwjrk6Pj9eHsAhUL-xoKHVe0D4gQMygEegUIARCfAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=NfN-yOppQic</video>
+          <video>https://www.youtube.com/watch?v=oetesO_4QtE</video>
+          <video>https://www.youtube.com/watch?v=Vd5NgbgJPRs</video>
+        </videos>
+      </hito>
+      <hito nombre="Plaza del Paraguas">
+        <descripcion>
+          Plaza ovetense que se ubica en la calle de San Isidoro puesto que se levanto en el lugar donde se encontraba la antigua iglesia romanica de San Isidoro, 
+          demolida en el año 1922. Se proyecto entonces un mercado para la venta de leche que, anteriormente, se realizaba en la Plaza Trascorrales.
+        </descripcion>
+        <long_hito>43.360783</long_hito>
+        <lat_hito>-5.842723</lat_hito>
+        <alt_hito unidades="metros">227</alt_hito>
+        <distancia_h_anterior unidades="metros">440</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">13</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.lavozdeasturias.es%2Fdefault%2F2018%2F10%2F15%2F00121539603939184507946%2FFoto%2Fparaguasok.jpg&amp;imgrefurl=https%3A%2F%2Fwww.lavozdeasturias.es%2Fnoticia%2Foviedo%2F2018%2F10%2F15%2Flecheras-pusieron-nombre-plaza-paraguas%2F00031539599271719572546.htm&amp;tbnid=bwBJT9TLGUfqwM&amp;vet=12ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygAegUIARCPAQ..i&amp;docid=mzZLvfQiLPgJUM&amp;w=1280&amp;h=720&amp;q=plaza%20del%20paraguas%20oviedo&amp;ved=2ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygAegUIARCPAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=http%3A%2F%2Fel.tesorodeoviedo.es%2Fimages%2Fthumb%2Fe%2Fe8%2FParaguas.jpg%2F350px-Paraguas.jpg&amp;imgrefurl=http%3A%2F%2Fel.tesorodeoviedo.es%2Findex.php%3Ftitle%3DPlaza_del_Paraguas&amp;tbnid=pSxsVB8Z1zkAWM&amp;vet=12ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygBegUIARCRAQ..i&amp;docid=P45Cp0VtRVp8HM&amp;w=350&amp;h=263&amp;q=plaza%20del%20paraguas%20oviedo&amp;ved=2ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygBegUIARCRAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F17%2F04%2F96%2F54%2Fplaza-del-paraguas.jpg&amp;imgrefurl=https%3A%2F%2Fwww.tripadvisor.es%2FLocationPhotoDirectLink-g187452-d6989397-i386176596-Plaza_del_Paraguas-Oviedo_Asturias.html&amp;tbnid=gIV1qKiTuE3k8M&amp;vet=12ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygCegUIARCTAQ..i&amp;docid=zx1zwgCCVJTpyM&amp;w=550&amp;h=367&amp;q=plaza%20del%20paraguas%20oviedo&amp;ved=2ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygCegUIARCTAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F12%2F87%2Fc0%2F43%2Fplaza-del-paraguas.jpg&amp;imgrefurl=https%3A%2F%2Fwww.tripadvisor.es%2FLocationPhotoDirectLink-g187452-d12716690-i310886467-Casco_Antiguo-Oviedo_Asturias.html&amp;tbnid=TgSFxUn7H8Wc_M&amp;vet=12ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygEegUIARCXAQ..i&amp;docid=-9b8Jk__zHiFdM&amp;w=550&amp;h=410&amp;q=plaza%20del%20paraguas%20oviedo&amp;ved=2ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygEegUIARCXAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F00%2F1c%2F3b%2Fb0%2Fthe-umbrella-plaza-las.jpg&amp;imgrefurl=https%3A%2F%2Fwww.tripadvisor.es%2FLocationPhotoDirectLink-g187452-i1850288-Oviedo_Asturias.html&amp;tbnid=4EWUm5HFQEykVM&amp;vet=12ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygGegUIARCbAQ..i&amp;docid=grkFQRa1rdI9nM&amp;w=550&amp;h=412&amp;q=plaza%20del%20paraguas%20oviedo&amp;ved=2ahUKEwj1hNu-9eHsAhVE3RoKHSk6AYsQMygGegUIARCbAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=QwpXb0X5cqk</video>
+          <video>https://www.youtube.com/watch?v=AAmdfVy2FZE</video>
+          <video>https://www.youtube.com/watch?v=84CAgvnbtvI</video>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+  <ruta nombre="Ruta de las cascadas de Oneta" tipo="Naturaleza" dificultad="media">
+    <fecha_ini formato="DD/MM/AAAA">01/11/2020</fecha_ini>
+    <hora_ini indicador="AM">12:00</hora_ini>
+    <duracion unidad="minutos">96</duracion>
+    <agencia>Asturias Impulsa</agencia>
+    <descripcion>Esta ruta te permite contemplar la majestuosidad de las cascadas de Oneta sin realizar un esfuerzo fisico</descripcion>
+    <target>Apto para todo el público</target>
+    <lugar_ini>Oneta</lugar_ini>
+    <direccion_ini>33717 Oneta, Asturias</direccion_ini>
+    <long_ini>43.464266</long_ini>
+    <lat_ini>-6.667482</lat_ini>
+    <alt_ini unidad="metros">313</alt_ini>
+    <referencias>
+      <referencia>https://guiadeasturias.com/lugar/ruta-las-cascadas-oneta-una-dos-tres-los-saltos-agua-disfrutaremos-este-recorrido/</referencia>
+      <referencia>https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/cascadas-de-oneta</referencia>
+      <referencia>https://lasendadelhayedo.com/cascadas-de-oneta/</referencia>
+    </referencias>
+    <recomendacion>9</recomendacion>
+    <hitos>
+      <hito nombre="Ermita de Santa Maria de Oneta">
+        <descripcion>
+          Ermita de Santa Maria localizada en Oneta, la localidad donde da comienzo la ruta.
+        </descripcion>
+        <long_hito>43.464957</long_hito>
+        <lat_hito>-6.666817</lat_hito>
+        <alt_hito unidades="metros">310</alt_hito>
+        <distancia_h_anterior unidades="metros">100</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">3</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2F1.bp.blogspot.com%2F-RRuiPkeM67E%2FX1-bwIRLqsI%2FAAAAAAAAx_c%2FqSApFN7KRIE-_RDsmVDziMMV_r7rDTBJQCLcBGAsYHQ%2Fw625-h419%2FDSC_2032.JPG&amp;imgrefurl=http%3A%2F%2Fcomandosenderista.blogspot.com%2F2020%2F09%2Fcascadas-de-oneta.html&amp;tbnid=FRJn85xL_kQR7M&amp;vet=12ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygEegUIARCrAQ..i&amp;docid=Ty_H0fl4cvsCfM&amp;w=625&amp;h=418&amp;itg=1&amp;q=Ermita%20de%20Santa%20Mar%C3%ADa%20de%20Oneta&amp;ved=2ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygEegUIARCrAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.iglesiadeasturias.org%2Fwp-content%2Fuploads%2F2017%2F12%2FOneta.Ermita-de-Santa-Mari%25CC%2581a.1-3.jpg&amp;imgrefurl=https%3A%2F%2Fwww.iglesiadeasturias.org%2Fparroquia%2Fsanta-maria-oneta-villayon%2F&amp;tbnid=JJE-Ye5Yh0ty4M&amp;vet=12ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygAegUIARCjAQ..i&amp;docid=EYhHMraoiQFoEM&amp;w=600&amp;h=406&amp;q=Ermita%20de%20Santa%20Mar%C3%ADa%20de%20Oneta&amp;ved=2ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygAegUIARCjAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fec%2Fd7%2F9f%2Fecd79f05bd6722d39e153e582a021a51.jpg&amp;imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F560487116106301874%2F&amp;tbnid=D-emNpsYCIw7RM&amp;vet=12ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygHegUIARCxAQ..i&amp;docid=UDK420ghPdScHM&amp;w=708&amp;h=449&amp;itg=1&amp;q=Ermita%20de%20Santa%20Mar%C3%ADa%20de%20Oneta&amp;ved=2ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygHegUIARCxAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.senderismoenasturias.es%2Fonetpuebl.jpg&amp;imgrefurl=http%3A%2F%2Fwww.senderismoenasturias.es%2Foneta.htm&amp;tbnid=dhkgz72It-xdsM&amp;vet=12ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMyggegUIARDoAQ..i&amp;docid=6Jj8DVPsajcsTM&amp;w=640&amp;h=384&amp;q=Ermita%20de%20Santa%20Mar%C3%ADa%20de%20Oneta&amp;ved=2ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMyggegUIARDoAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.v2.siweb.es%2Fuploaded_thumb_medium%2Fe36f93dc4099c27312946ab57cbf1454%2Fslider2.jpg&amp;imgrefurl=https%3A%2F%2Fcasafonsorural.com%2FD%2Fpost%2Fcascadas-de-oneta%2F&amp;tbnid=PVfl2-R4oyae0M&amp;vet=12ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygnegUIARD2AQ..i&amp;docid=u8XGHAb2HHlmVM&amp;w=1000&amp;h=384&amp;itg=1&amp;q=Ermita%20de%20Santa%20Mar%C3%ADa%20de%20Oneta&amp;ved=2ahUKEwitjof59eHsAhUJwIUKHRoUBDcQMygnegUIARD2AQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=qGlNtatwXN0</video>
+          <video>https://www.youtube.com/watch?v=XRIT7j8vLrE</video>
+          <video>https://www.youtube.com/watch?v=bttFF2b2wI0</video>
+        </videos>
+      </hito>
+      <hito nombre="Cascadas de Oneta">
+        <descripcion>
+          El agua, fuente de vida, nos llama poderosamente la atencion, nos atrae, y mas cuando por la climatologia o por la orografi­a nos 
+          muestra toda su fuerza y poder y se convierte en belleza. Esto es lo que nos enseñan las cascadas de Oneta, al menos dos de las tres existentes.
+        </descripcion>
+        <long_hito>43.460483</long_hito>
+        <lat_hito>-6.675045</lat_hito>
+        <alt_hito unidades="metros">260</alt_hito>
+        <distancia_h_anterior unidades="metros">820</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">26</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fanimalesviajeros.es%2Fwp-content%2Fuploads%2F2019%2F10%2FCascada-Oneta-Asturias-1920x1440.jpg&amp;imgrefurl=https%3A%2F%2Fanimalesviajeros.es%2Fruta-de-las-cascadas-de-oneta-que-hacer-en-el-occidente-asturiano%2F&amp;tbnid=VfDsyWXCpwV6_M&amp;vet=12ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygAegUIARCcAQ..i&amp;docid=2W7iykoSmXrpzM&amp;w=1920&amp;h=1440&amp;q=cascadas%20de%20oneta&amp;ved=2ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygAegUIARCcAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fsaposyprincesas.elmundo.es%2Fwp-content%2Fuploads%2F2018%2F10%2Fguillenperez.jpg&amp;imgrefurl=https%3A%2F%2Fsaposyprincesas.elmundo.es%2Factividades-ninos%2Fasturias%2Faire-libre%2Frutas-y-excursiones%2Fcascadas-de-oneta%2F&amp;tbnid=zEvK3fnNPQLDWM&amp;vet=12ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygBegUIARCeAQ..i&amp;docid=RinlhoU1IPwHZM&amp;w=700&amp;h=450&amp;q=cascadas%20de%20oneta&amp;ved=2ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygBegUIARCeAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdocuments%2F11022%2F2905839%2FCascada_Oneta.jpg%2Fde48b3ee-79b8-4076-bd57-a08b0ae5dd17%3Ft%3D1540888413025&amp;imgrefurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdescubre%2Fnaturaleza%2Frutas%2Fsenderismo%2Fcascadas-de-oneta&amp;tbnid=c2i88ukK-_jcaM&amp;vet=12ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygCegUIARCgAQ..i&amp;docid=0WOlyamw4ws_EM&amp;w=708&amp;h=449&amp;q=cascadas%20de%20oneta&amp;ved=2ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygCegUIARCgAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F56%2FCascada_de_Oneta.jpg&amp;imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FCascadas_de_Oneta&amp;tbnid=fCkIfZZ97BsPMM&amp;vet=12ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygDegUIARCiAQ..i&amp;docid=WGM0gFg8YWZUuM&amp;w=800&amp;h=600&amp;q=cascadas%20de%20oneta&amp;ved=2ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygDegUIARCiAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.rutasymapas.com%2Fwp-content%2Fuploads%2F2016%2F05%2FCascadas-de-Oneta.jpg&amp;imgrefurl=https%3A%2F%2Fwww.rutasymapas.com%2Fcascadas-de-oneta-villayon%2F&amp;tbnid=Sa10F7PqXkTRFM&amp;vet=12ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygEegUIARCkAQ..i&amp;docid=hfvUNp1GAJTNHM&amp;w=708&amp;h=449&amp;q=cascadas%20de%20oneta&amp;ved=2ahUKEwixmLSl9uHsAhVN3hoKHRvGC9kQMygEegUIARCkAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=bttFF2b2wI0</video>
+          <video>https://www.youtube.com/watch?v=1wFx1di5-64</video>
+          <video>https://www.youtube.com/watch?v=g7MVPG9IqOA</video>
+        </videos>
+      </hito>
+      <hito nombre="Molinos de Oneta">
+        <descripcion>
+          Molinos de agua que aprovechan la fuerza del agua de las cascadas de Oneta
+        </descripcion>
+        <long_hito>43.459942</long_hito>
+        <lat_hito>-6.675580</lat_hito>
+        <alt_hito unidades="metros">250</alt_hito>
+        <distancia_h_anterior unidades="metros">75</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">2</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fs2.wklcdn.com%2Fimage_5%2F170352%2F36338318%2F23517794Master.jpg&amp;imgrefurl=https%3A%2F%2Fes.wikiloc.com%2Frutas-a-pie%2F20190504-cascadas-y-molinos-de-oneta-36338318%2Fphoto-23517794&amp;tbnid=gQ_oN6vntq91cM&amp;vet=12ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygDegUIARCVAQ..i&amp;docid=sYHEHocjUH6jwM&amp;w=1600&amp;h=1200&amp;itg=1&amp;q=molinos%20de%20oneta&amp;ved=2ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygDegUIARCVAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=http%3A%2F%2F4.bp.blogspot.com%2F-JMYwLARNFzk%2FUCGcxKYchWI%2FAAAAAAAAHQ8%2FUGEmwjut7zQ%2Fs1600%2F1080228.jpg&amp;imgrefurl=http%3A%2F%2Faunpasodelacima.com%2Fruta-de-las-cascadas-y-los-molinos-de-oneta%2F&amp;tbnid=jFE28xChTRDmEM&amp;vet=12ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygAegUIARCPAQ..i&amp;docid=UtG5i1DUbLTWOM&amp;w=1500&amp;h=1000&amp;q=molinos%20de%20oneta&amp;ved=2ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygAegUIARCPAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fobservandonaturaleza.files.wordpress.com%2F2015%2F09%2Fmolc3adn-de-ulloa-cascadas-de-oneta-villayc3b3n.jpg&amp;imgrefurl=https%3A%2F%2Fobservandonaturaleza.com%2Fecotour-palencia-espacios-naturales%2Ftierra-y-mar-tesoros-naturales-de-asturias-2%2Fcascadas-y-molinos-de-oneta-villayon%2F&amp;tbnid=RgWcDHUFuMcWyM&amp;vet=12ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygHegUIARCdAQ..i&amp;docid=XSMNDcNJOBuqfM&amp;w=3456&amp;h=1944&amp;q=molinos%20de%20oneta&amp;ved=2ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygHegUIARCdAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F14%2F00%2F8f%2F0b%2Fel-molino-por-su-entrada.jpg&amp;imgrefurl=https%3A%2F%2Fwww.tripadvisor.com%2FLocationPhotoDirectLink-g777736-d7099895-i335580939-Cascadas_de_Oneta-Villayon_Asturias.html&amp;tbnid=8K5S5RNcSPr47M&amp;vet=12ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygOegUIARCrAQ..i&amp;docid=FwGKqXYp6joAuM&amp;w=550&amp;h=309&amp;q=molinos%20de%20oneta&amp;ved=2ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygOegUIARCrAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fpablobenii%2Fpablobenii1712%2Fpablobenii171200024%2F91719085-paisaje-de-uno-de-los-molinos-de-agua-abandonados-del-bosque-de-oneta-cascades-en-asturias-espa%25C3%25B1a-.jpg&amp;imgrefurl=https%3A%2F%2Fes.123rf.com%2Fphoto_91719085_paisaje-de-uno-de-los-molinos-de-agua-abandonados-del-bosque-de-oneta-cascades-en-asturias-espa%25C3%25B1a-.html&amp;tbnid=XOIdRiZWbjoIyM&amp;vet=12ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygRegUIARCxAQ..i&amp;docid=oODqyKwPFX7yWM&amp;w=1300&amp;h=866&amp;q=molinos%20de%20oneta&amp;ved=2ahUKEwinm7-39uHsAhVU-4UKHSBKBlIQMygRegUIARCxAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=Ng1aQ5rNT1M</video>
+          <video>https://www.youtube.com/watch?v=h1DDh8xJoRg</video>
+          <video>https://www.youtube.com/watch?v=niHXKlSKA6I</video>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+  <ruta nombre="La costa de los dinosaurios" tipo="Didactica" dificultad="baja">
+    <fecha_ini formato="DD/MM/AAAA">31/10/2020</fecha_ini>
+    <hora_ini indicador="PM">6:00</hora_ini>
+    <duracion unidad="minutos">125</duracion>
+    <agencia>Dronsturias</agencia>
+    <descripcion>En esta ruta visitaremos el Museo Jurasico de Asturias y deferentes puntos en la costa asturiana donde podremos observar huellas prehistoricas de dinosaurio
+    </descripcion>
+    <target>Muy recomendado para niños</target>
+    <lugar_ini>Colunga</lugar_ini>
+    <direccion_ini>Rasa de San Telmo, s/n, 33328 Colunga, Asturias</direccion_ini>
+    <long_ini>43.500924</long_ini>
+    <lat_ini>-5.274223</lat_ini>
+    <alt_ini unidad="metros">150</alt_ini>
+    <referencias>
+      <referencia>https://guiadeasturias.com/lugar/la-costa-los-dinosaurios/</referencia>
+      <referencia>http://www.museojurasicoasturias.com/</referencia>
+      <referencia>http://www.museojurasicoasturias.com/es/9/la-costa-de-los-dinosaurios/12/la-costa-de-los-dinosaurios/13/playa-de-la-griega.html</referencia>
+    </referencias>
+    <recomendacion>6</recomendacion>
+    <hitos>
+      <hito nombre="MUJA">
+        <descripcion>
+          El Museo del Jurasico de Asturias (MUJA) es un pequeño museo paleontologico espannol que se encuentra aislado en la rasa costera de San Telmo, 
+          entre las localidades asturianas de Colunga y Lastres, donde se han encontrado vestigios de dinosaurios que habrian poblado la region hace unos 
+          150 millones de años, durante la ultima parte del Jurásico.
+        </descripcion>
+        <long_hito>43.500924</long_hito>
+        <lat_hito>-5.274223</lat_hito>
+        <alt_hito unidades="metros">150</alt_hito>
+        <distancia_h_anterior unidades="metros">0</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">0</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.mundoprehistorico.com%2Fwp-content%2Fuploads%2FMuja-01.jpg&amp;imgrefurl=https%3A%2F%2Fwww.mundoprehistorico.com%2Fportfolio%2Fmuja%2F&amp;tbnid=apVTDpPN6vNBpM&amp;vet=12ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygAegUIARDOAQ..i&amp;docid=j7nBHthg83lkvM&amp;w=900&amp;h=600&amp;q=muja&amp;ved=2ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygAegUIARDOAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.elcomercio.es%2Fwww%2Fmultimedia%2F202008%2F12%2Fmedia%2Fcortadas%2Fturismo-museo-jurasico-colunga%2520(1)-kR9E--739x455%40El%2520Comercio.jpg&amp;imgrefurl=https%3A%2F%2Fwww.elcomercio.es%2Ftemas%2Flugares%2Fmuja.html&amp;tbnid=5Q_2HCZZl4WjzM&amp;vet=12ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygBegUIARDQAQ..i&amp;docid=0vYxh5kA-sCBsM&amp;w=739&amp;h=455&amp;q=muja&amp;ved=2ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygBegUIARDQAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4d%2FMUJA-Tyrannosaurus.JPG%2F261px-MUJA-Tyrannosaurus.JPG&amp;imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FMuseo_del_Jur%25C3%25A1sico_de_Asturias&amp;tbnid=KrSahurf2FKDvM&amp;vet=12ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygCegUIARDSAQ..i&amp;docid=xc1oyq8MgeqC4M&amp;w=261&amp;h=180&amp;q=muja&amp;ved=2ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygCegUIARDSAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fcflvdg.avoz.es%2Fdefault%2F2018%2F06%2F06%2F00121528299032655520654%2FFoto%2F2.jpg&amp;imgrefurl=https%3A%2F%2Fwww.lavozdeasturias.es%2Fnoticia%2Fcultura%2F2020%2F05%2F15%2Fmuja-museo-visitado-bellas-artes-bate-records%2F00031589556774356130301.htm&amp;tbnid=DA-Gofi_HJRvhM&amp;vet=12ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygDegUIARDUAQ..i&amp;docid=KGWyOLQRVsd5iM&amp;w=1280&amp;h=720&amp;q=muja&amp;ved=2ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygDegUIARDUAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic1.elcomercio.es%2Fwww%2Fmultimedia%2F201901%2F09%2Fmedia%2Fcortadas%2F41199792--624x415.JPG&amp;imgrefurl=https%3A%2F%2Fwww.elcomercio.es%2Fasturias%2Foriente%2Fmuja-tito-bustillo-20190109003447-ntvo.html&amp;tbnid=9XHSa3IBnaXJvM&amp;vet=12ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygEegUIARDWAQ..i&amp;docid=vv9cA9jMvT2GDM&amp;w=624&amp;h=415&amp;q=muja&amp;ved=2ahUKEwjunMDM9uHsAhUY_hoKHajfDfMQMygEegUIARDWAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=T-3RLUeJnyE</video>
+          <video>https://www.youtube.com/watch?v=ckqWCvoijqU</video>
+          <video>https://www.youtube.com/watch?v=7sSEpgY3-mg</video>
+        </videos>
+      </hito>
+      <hito nombre="La playa de la Griega">
+        <descripcion>
+          Siguiendo por el borde del acantilado otros 150 m. se llega a un estrato de arenisca suavemente inclinado hacia el mar cuya superficie está atravesada por diaclasas 
+          (grietas de origen tectonico) en varias direcciones, que contiene algunas huellas de teropodos muy desgastadas por la erosion marina.
+        </descripcion>
+        <long_hito>43.498144</long_hito>
+        <lat_hito>-5.247419</lat_hito>
+        <alt_hito unidades="metros">5</alt_hito>
+        <distancia_h_anterior unidades="kilometros">2,1</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">25</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fsaposyprincesas.elmundo.es%2Fwp-content%2Fuploads%2F2019%2F08%2Fla_griega_colunga.jpg&amp;imgrefurl=https%3A%2F%2Fsaposyprincesas.elmundo.es%2Factividades-ninos%2Fasturias%2Faire-libre%2Fplayas%2Fplaya-de-la-griega-en-colunga%2F&amp;tbnid=STQAFc3SJ12irM&amp;vet=12ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygAegUIARCgAQ..i&amp;docid=cCpF_KYQuW8rqM&amp;w=700&amp;h=450&amp;q=playa%20de%20la%20griega%20asturias&amp;ved=2ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygAegUIARCgAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdocuments%2F11022%2F15048%2FPlayaLaGriega3.jpg%2F5ccc8771-908f-4515-badf-1dcd02414db6%3Ft%3D1388688068650&amp;imgrefurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdescubre%2Fcosta%2Fplayas%2Fplaya-de-la-griega&amp;tbnid=NJizzRLRaZ_9GM&amp;vet=12ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygBegUIARCiAQ..i&amp;docid=7yqSTgcUMfZKhM&amp;w=708&amp;h=449&amp;q=playa%20de%20la%20griega%20asturias&amp;ved=2ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygBegUIARCiAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.elcomercio.es%2Fcomun%2Fmovil2016%2Fimagenes_playas%2F0002390.jpg&amp;imgrefurl=http%3A%2F%2Fwww.elcomercio.es%2Fplanes%2Fplayas%2Fasturias%2Fla-griega-0002390.html&amp;tbnid=8vdUXMH3vaDb_M&amp;vet=12ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygCegUIARCkAQ..i&amp;docid=fqXgeiOwsoAO7M&amp;w=690&amp;h=541&amp;q=playa%20de%20la%20griega%20asturias&amp;ved=2ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygCegUIARCkAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdocuments%2F11022%2F15048%2FPlayaLaGriega2.jpg%2Fa8512ff2-dae2-4317-bbfc-86dee3ec664c%3Ft%3D1388688066828&amp;imgrefurl=https%3A%2F%2Fwww.turismoasturias.es%2Fdescubre%2Fcosta%2Fplayas%2Fplaya-de-la-griega&amp;tbnid=10Si28n72gRnYM&amp;vet=12ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygDegUIARCmAQ..i&amp;docid=7yqSTgcUMfZKhM&amp;w=708&amp;h=449&amp;q=playa%20de%20la%20griega%20asturias&amp;ved=2ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygDegUIARCmAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.elbuscolu.com%2Fuploads%2FgriegaL.jpg&amp;imgrefurl=https%3A%2F%2Fwww.elbuscolu.com%2Fnoticias-colunga-lastres%2Fnota-de-alcalda-limitaciones-de-acceso-y-de-aforo-a-playas-fase-ii%2F38318&amp;tbnid=GRfv1k4Abd7UHM&amp;vet=12ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygEegUIARCoAQ..i&amp;docid=REAa-g_Ml3nHDM&amp;w=472&amp;h=348&amp;q=playa%20de%20la%20griega%20asturias&amp;ved=2ahUKEwienOPf9uHsAhVHlxoKHd0jCG8QMygEegUIARCoAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=ao6XUjVRoAQ</video>
+          <video>https://www.youtube.com/watch?v=hF_Zcby2QpA</video>
+          <video>https://www.youtube.com/watch?v=37uLPrBIo5s</video>
+        </videos>
+      </hito>
+      <hito nombre="Acantilado de Lastres">
+        <descripcion>
+          Aqui podemos encontrar una plancha suelta de arenisca de disposicion horizontal y de unos 4,5m. de longitud, en cuya superficie se dispone un rastro 
+          formado por un total de 14 icnitas tridactilas de pequenno tamanno (unos 13 cm. de longitud media) debidas al paso de un dinosaurio bipedo, 
+          probablemente un ornitopodo de pequeña talla; la altura de su cadera seria de unos 65cm.
+        </descripcion>
+        <long_hito>43.520661</long_hito>
+        <lat_hito>-5.2727593</lat_hito>
+        <alt_hito unidades="metros">15</alt_hito>
+        <distancia_h_anterior unidades="kilometros">3,2</distancia_h_anterior>
+        <tiempo_h_anterior unidades="minutos">38</tiempo_h_anterior>
+        <fotografias>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic3.elcomercio.es%2Fwww%2Fmultimedia%2F201808%2F16%2Fmedia%2Fcortadas%2FVillaLastres-kZoE-U606248110048fE-624x385%40RC.jpg&amp;imgrefurl=https%3A%2F%2Fwww.elcomercio.es%2Fplanes%2Fviajes%2Fnacionales%2Flastres-hermosa-evolucion-20180816205439-ntrc.html&amp;tbnid=8F4vuhPcrJ5hpM&amp;vet=12ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygBegUIARDOAQ..i&amp;docid=zXbDVwYqvBi1EM&amp;w=624&amp;h=385&amp;q=lastres&amp;ved=2ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygBegUIARDOAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fviajeros30.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fmirador-lastres.jpg%3Fresize%3D696%252C464%26ssl%3D1&amp;imgrefurl=https%3A%2F%2Fviajeros30.com%2F2020%2F03%2F04%2Fque-ver-en-lastres-y-cerca-de-lastres%2F&amp;tbnid=kQ40BkZUrdxPgM&amp;vet=12ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygCegUIARDQAQ..i&amp;docid=OS_QLjVBOZTk1M&amp;w=696&amp;h=464&amp;q=lastres&amp;ved=2ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygCegUIARDQAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5b%2FLastres%252C_Asturias.jpg&amp;imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FLastres&amp;tbnid=nWXeBbG_bUOenM&amp;vet=12ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygDegUIARDSAQ..i&amp;docid=Wy9njkQvJmpf5M&amp;w=4320&amp;h=2160&amp;q=lastres&amp;ved=2ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygDegUIARDSAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Ffotos.hoteles.net%2Farticulos%2Flastres-asturias-que-ver-y-hacer-4859-1.jpg&amp;imgrefurl=https%3A%2F%2Fwww.hoteles.net%2Fasturias%2Flastres%2Flastres-asturias-que-ver-y-hacer.html&amp;tbnid=1Geij8XxlBAmCM&amp;vet=12ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygEegUIARDUAQ..i&amp;docid=0YV4qt2noInVAM&amp;w=675&amp;h=420&amp;q=lastres&amp;ved=2ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygEegUIARDUAQ</foto>
+          <foto>https://www.google.com/imgres?imgurl=https%3A%2F%2Fespanafascinante.com%2Fwp-content%2Fuploads%2Fimagen_lugares_Pueblos-m%25C3%25A1s-bonitos-de-Asturias_lastres.jpg&amp;imgrefurl=https%3A%2F%2Fespanafascinante.com%2Flugar-para-visitar%2Fque-ver-en-asturias%2Fque-ver-en-lastres%2F&amp;tbnid=BOsbfSX3007oLM&amp;vet=12ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygKegUIARDhAQ..i&amp;docid=svT7O6TdBIbolM&amp;w=800&amp;h=500&amp;q=lastres&amp;ved=2ahUKEwiLk97v9uHsAhUNghoKHaz2AiwQMygKegUIARDhAQ</foto>
+        </fotografias>
+        <videos>
+          <video>https://www.youtube.com/watch?v=mJaFigkFVGo</video>
+          <video>https://www.youtube.com/watch?v=itnPpa1xSt4</video>
+          <video>https://www.youtube.com/watch?v=zhOZZOns3-U</video>
+        </videos>
+      </hito>
+    </hitos>
+  </ruta>
+</rutas>

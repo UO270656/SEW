@@ -91,3 +91,8 @@ div{
   background-color: transparent;
   position:relative;
 }
+/*Selector specificity (0,0,1)*/
+a{
+    color: rgb(255, 129, 0);
+    background-color:  rgb(7, 15, 36);
+}

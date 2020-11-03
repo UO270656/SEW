@@ -1,0 +1,13 @@
+Las diferencias entre el xsd y el dtd son:
+	Que se controlan el minimo de rutas que debe contener el xml (3)
+	Que la fecha de inicio y la hora de inicio de una ruta son opcionales
+	Que la duracion de una ruta se guarda en un int
+	Que las coordenadas del lugar de inicio se guardan en float
+	Que se controlan el minimo de referencias que debe de tener una ruta (3)
+	Que la recomendacion es de tipo int
+	Que se controlan el minimo de hitos que tiene una ruta (3)
+	Que las coordenadas del hito son de tipo float
+	Que la distancia respecto al hito anterior es de tipo float
+	Que la distancia respecto al hito anterior es de tipo float y que es opcional
+	Que el minimo de fotografias de un hito son 1 y el maximo 5
+	Que el minimo de videos de un hito son 0 (opcional) y el maximo 3

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/rutas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="rutas">
     <xs:complexType>
       <xs:sequence>
@@ -27,14 +27,14 @@
       </xs:sequence>
       <xs:attribute name="nombre" type="xs:string" use="required" />
       <xs:attribute name="tipo" type="xs:string" use="required" />
-      <xs:attribute name="dificultad" type="xs:int" use="required" />
+      <xs:attribute name="dificultad" type="xs:string" use="required" />
     </xs:complexType>
   </xs:element>
   <xs:element name="fecha_ini">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
-          <xs:attribute name="formato" type="xs:string" use="required" />
+          <xs:attribute name="formato" type="xs:string" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -43,7 +43,7 @@
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
-          <xs:attribute name="indicador" type="xs:string" use="required" />
+          <xs:attribute name="indicador" type="xs:string" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -128,7 +128,7 @@
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:float">
-          <xs:attribute name="unidades" type="xs:string" use="required" />
+          <xs:attribute name="unidades" type="xs:string" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
