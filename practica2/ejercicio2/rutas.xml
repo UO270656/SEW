@@ -21,7 +21,7 @@
     <recomendacion>7</recomendacion>
     <hitos>
       <hito nombre="Foncalada">
-        <descripcion>La Foncalada” de Oviedo , esta considerada como el monumento civil en uso continuado mas antiguo de Espanna, 
+        <descripcion>La Foncalada de Oviedo , esta considerada como el monumento civil en uso continuado mas antiguo de Espanna, 
         pues hasta principios del Siglo XX, aun era utilizada por las mujeres como lavadero.Fue declarado como Patrimonio de la Humanidad por la UNESCO en el anno 1985.
         </descripcion>
         <long_hito>43.365253</long_hito>
@@ -67,7 +67,7 @@
       <hito nombre="Plaza del Paraguas">
         <descripcion>
           Plaza ovetense que se ubica en la calle de San Isidoro puesto que se levanto en el lugar donde se encontraba la antigua iglesia romanica de San Isidoro, 
-          demolida en el año 1922. Se proyecto entonces un mercado para la venta de leche que, anteriormente, se realizaba en la Plaza Trascorrales.
+          demolida en el anno 1922. Se proyecto entonces un mercado para la venta de leche que, anteriormente, se realizaba en la Plaza Trascorrales.
         </descripcion>
         <long_hito>43.360783</long_hito>
         <lat_hito>-5.842723</lat_hito>
@@ -95,7 +95,7 @@
     <duracion unidad="minutos">96</duracion>
     <agencia>Asturias Impulsa</agencia>
     <descripcion>Esta ruta te permite contemplar la majestuosidad de las cascadas de Oneta sin realizar un esfuerzo fisico</descripcion>
-    <target>Apto para todo el público</target>
+    <target>Apto para todo el publico</target>
     <lugar_ini>Oneta</lugar_ini>
     <direccion_ini>33717 Oneta, Asturias</direccion_ini>
     <long_ini>43.464266</long_ini>
@@ -132,8 +132,8 @@
       </hito>
       <hito nombre="Cascadas de Oneta">
         <descripcion>
-          El agua, fuente de vida, nos llama poderosamente la atencion, nos atrae, y mas cuando por la climatologia o por la orografi­a nos 
-          muestra toda su fuerza y poder y se convierte en belleza. Esto es lo que nos enseñan las cascadas de Oneta, al menos dos de las tres existentes.
+          El agua, fuente de vida, nos llama poderosamente la atencion, nos atrae, y mas cuando por la climatologia o por la orografia nos 
+          muestra toda su fuerza y poder y se convierte en belleza. Esto es lo que nos ensennan las cascadas de Oneta, al menos dos de las tres existentes.
         </descripcion>
         <long_hito>43.460483</long_hito>
         <lat_hito>-6.675045</lat_hito>
@@ -184,7 +184,7 @@
     <agencia>Dronsturias</agencia>
     <descripcion>En esta ruta visitaremos el Museo Jurasico de Asturias y deferentes puntos en la costa asturiana donde podremos observar huellas prehistoricas de dinosaurio
     </descripcion>
-    <target>Muy recomendado para niños</target>
+    <target>Muy recomendado para ninnos</target>
     <lugar_ini>Colunga</lugar_ini>
     <direccion_ini>Rasa de San Telmo, s/n, 33328 Colunga, Asturias</direccion_ini>
     <long_ini>43.500924</long_ini>
@@ -199,9 +199,9 @@
     <hitos>
       <hito nombre="MUJA">
         <descripcion>
-          El Museo del Jurasico de Asturias (MUJA) es un pequeño museo paleontologico espannol que se encuentra aislado en la rasa costera de San Telmo, 
+          El Museo del Jurasico de Asturias (MUJA) es un pequenno museo paleontologico espannol que se encuentra aislado en la rasa costera de San Telmo, 
           entre las localidades asturianas de Colunga y Lastres, donde se han encontrado vestigios de dinosaurios que habrian poblado la region hace unos 
-          150 millones de años, durante la ultima parte del Jurásico.
+          150 millones de annos, durante la ultima parte del Jurasico.
         </descripcion>
         <long_hito>43.500924</long_hito>
         <lat_hito>-5.274223</lat_hito>
@@ -248,7 +248,7 @@
         <descripcion>
           Aqui podemos encontrar una plancha suelta de arenisca de disposicion horizontal y de unos 4,5m. de longitud, en cuya superficie se dispone un rastro 
           formado por un total de 14 icnitas tridactilas de pequenno tamanno (unos 13 cm. de longitud media) debidas al paso de un dinosaurio bipedo, 
-          probablemente un ornitopodo de pequeña talla; la altura de su cadera seria de unos 65cm.
+          probablemente un ornitopodo de pequenna talla; la altura de su cadera seria de unos 65cm.
         </descripcion>
         <long_hito>43.520661</long_hito>
         <lat_hito>-5.2727593</lat_hito>
