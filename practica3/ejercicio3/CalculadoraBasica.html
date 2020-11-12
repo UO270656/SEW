@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <META name="Calculadora Basica" CONTENT="Pagina web que simula una calculadora">
+    <link rel="stylesheet" type="text/css" href="calculadoraBasica.css">
+    <base href="https://uo270656.github.io/SEW/practica1/index.html">
+</head>
+
+<body>
+    <script src="calculadoraBasica.js"></script>
+    <table>
+        <tr>
+            <td colspan="5"><input type="text" id="resultado" disabled /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="mrc" onclick="calculadora.mClean()" id="m1" /></td>
+            <td><input type="button" value="m-" onclick="calculadora.mMenos()" id="m2" /></td>
+            <td><input type="button" value="m+" onclick="calculadora.mMas()" id="m3" /></td>
+            <td><input type="button" value="/" onclick="calculadora.divi()" id="division" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></td>
+            <td><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></td>
+            <td><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></td>
+            <td><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></td>
+            <td><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></td>
+            <td><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></td>
+            <td><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></td>
+            <td><input type="button" value="2" onclick="calculadora.doses()" id="dos" /></td>
+            <td><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></td>
+            <td><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></td>
+            <td><input type="button" value="." onclick="calculadora.divi()" id="punto" /></td>
+            <td><input type="button" value="C" onclick="calculadora.clean()" id="limpiar" /></td>
+            <td><input type="button" value="=" onclick="calculadora.result()" id="igual" /></td>
+        </tr>
+    </table>
+</body>
+</html>
