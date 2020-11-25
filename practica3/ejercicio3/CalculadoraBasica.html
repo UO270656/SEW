@@ -7,15 +7,14 @@
     <title>Calculadora</title>
     <META name="Calculadora Basica" CONTENT="Pagina web que simula una calculadora">
     <link rel="stylesheet" type="text/css" href="calculadoraBasica.css">
-    <base href="https://uo270656.github.io/SEW/practica3/ejercicio3/CalculadoraBasica.html">
 </head>
 
 <body>
-<script src="calculadoraBasica.js"></script>
 <div id="containerCalculadora">
     <input type="text" id="resultado" disabled />
     <div class="grid-container">
-        <div class="grid-item"><input type="button" value="mrc" onclick="calculadora.mClean()" id="m1" /></div>
+        <script src="calculadoraBasica.js"></script>
+        <div class="grid-item"><input type="button" value="mrc" onclick="calculadora.getM()" id="m1" /></div>
         <div class="grid-item"><input type="button" value="m-" onclick="calculadora.mMenos()" id="m2" /></div>
         <div class="grid-item"><input type="button" value="m+" onclick="calculadora.mMas()" id="m3" /></div>
         <div class="grid-item"><input type="button" value="/" onclick="calculadora.divi()" id="division" /></div>

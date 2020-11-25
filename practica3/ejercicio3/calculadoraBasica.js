@@ -1,28 +1,7 @@
-"use strict";
 class Calculadora {
 	constructor(){
 		this.resultado=document.getElementById("resultado");
-		this.m1=document.getElementById("m1");
-		this.m2=document.getElementById("m2");
-		this.m3=document.getElementById("m3");
-		this.div=document.getElementById("division");
-		this.mult=document.getElementById("multiplicacion");
-		this.resta=document.getElementById("resta");
-		this.suma=document.getElementById("suma");
-		this.siete=document.getElementById("siete");
-		this.ocho=document.getElementById("ocho");
-		this.nueve=document.getElementById("nueve");
-		this.cuatro=document.getElementById("cuatro");
-		this.cinco=document.getElementById("cinco");
-		this.seis=document.getElementById("seis");
-		this.seis=document.getElementById("seis");
-		this.uno=document.getElementById("uno");
-		this.dos=document.getElementById("dos");
-		this.tres=document.getElementById("tres");
-		this.igual=document.getElementById("igual");
-		this.limpiar=document.getElementById("limpiar");
-		this.punto=document.getElementById("punto");
-		this.cero=document.getElementById("cero");
+		this.m=0.0;
 	}
 	unos(){
 		resultado.value = resultado.value + "1";
@@ -69,21 +48,27 @@ class Calculadora {
 	clean(){
 		resultado.value = "";
 	}
-	result(){
-		str = resultado.value;
-		resultado.value = eval(str);
-	}
-	mMas(){
-	
+	getM(){
+		resultado.value = resultado.value + this.m;
 	}
 	mMenos(){
-	
+		this.m=this.m-parseFloat(resultado.value);
 	}
-	mClean(){
-	
+	mMas(){
+		var number=parseFloat(this.resultado.value)
+		this.m=this.m+number;
+	}
+	result(){
+		try{
+			var str = resultado.value;
+			resultado.value =parseFloat(eval(str).toFixed(6));
+		}catch (error){
+			resultado.value ="Su sintaxis no es valida"
+		}
 	}
 	comas(){
 		resultado.value = resultado.value + ".";
 	}
-};
-calculadora = new Calculadora();
+}
+
+var calculadora = new Calculadora();
