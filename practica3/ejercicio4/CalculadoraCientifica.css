@@ -1,29 +1,56 @@
-table {
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     background-color: gold;
-    width: 400px;
-    height: 780px;
-    border-radius: 25px;
+    width: 200px;
+    margin-right:0ch;
+    margin-top: 0ch;
+    margin-left: 0ch;
+    margin-bottom: 0ch;
 }
 
-table td input {
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+    margin-right:0ch;
+    margin-top: 0ch;
+    margin-left: 0ch;
+    margin-bottom: 0ch;
+}
+
+.grid-container .grid-item input {
     display: block;
     width: 70px;
-    height: 70px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 25px;
+    margin-right:0ch;
+    margin-top: 0ch;
+    margin-left: 0ch;
+    margin-bottom: 0ch;
 }
 
 #resultado {
     display: block;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
+    font-size: 22px;
+    margin-bottom: 20px;
     width: 350px;
     height: 100px;
     line-height: 100px;
     background-color: #fff;
     border-radius: 25px;
     overflow-y: scroll;
+}
+
+#containerCalculadora {
+    background-color: gold;
+    padding: 10px;
+    width: 360px;
+    margin-right:0ch;
+    margin-top: 0ch;
+    margin-left: 0ch;
+    margin-bottom: 0ch;
+    border-radius: 15px;
 }

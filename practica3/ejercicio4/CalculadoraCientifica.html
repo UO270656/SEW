@@ -5,72 +5,56 @@
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8">
     <title>Calculadora Cientifica</title>
-    <META name="Calculadora Cientifica" CONTENT="Pagina web que simula una calculadora">
+    <meta name="Calculadora Cientifica" CONTENT="Pagina web que simula una calculadora">
     <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css">
 </head>
 
 <body>
-    <script src="CalculadoraCientifica.js"></script>
-    <table>
-        <tr>
-            <td colspan="5"><input type="text" id="resultado" disabled /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="MC" onclick="" id="MC" /></td>
-            <td><input type="button" value="MR" onclick="" id="MR" /></td>
-            <td><input type="button" value="M+" onclick="calculadora.sin()" id="M+" /></td>
-            <td><input type="button" value="M-" onclick="calculadora.cos()" id="M-" /></td>
-            <td><input type="button" value="MS" onclick="calculadora.tan()" id="MS" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="x^2" onclick="" id="x^2" /></td>
-            <td><input type="button" value="x^y" onclick="" id="x^y" /></td>
-            <td><input type="button" value="sin" onclick="calculadora.sin()" id="sin" /></td>
-            <td><input type="button" value="cos" onclick="calculadora.cos()" id="cos" /></td>
-            <td><input type="button" value="tan" onclick="calculadora.tan()" id="tan" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="&#8730" onclick="calculadora.square()" id="square" /></td>
-            <td><input type="button" value="10^x" onclick="" id="10^x" /></td>
-            <td><input type="button" value="log" onclick="calculadora.mMas()" id="log" /></td>
-            <td><input type="button" value="Exp" onclick="calculadora.divi()" id="Exp" /></td>
-            <td><input type="button" value="Mod" onclick="calculadora.mMas()" id="Mod" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="↑" onclick="calculadora.mClean()" id="m1" /></td>
-            <td><input type="button" value="CE" onclick="calculadora.mMenos()" id="m2" /></td>
-            <td><input type="button" value="C" onclick="calculadora.mMas()" id="m3" /></td>
-            <td><input type="button" value="⇐" onclick="calculadora.divi()" id="delete" /></td>
-            <td><input type="button" value="/" onclick="calculadora.divi()" id="division" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="PI" onclick="calculadora.pi()" id="pi"/></td>
-            <td><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></td>
-            <td><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></td>
-            <td><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></td>
-            <td><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="n!" onclick="calculadora.factorial()" id="factorial" /></td>
-            <td><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></td>
-            <td><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></td>
-            <td><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></td>
-            <td><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="+-" onclick="calculadora.masMenos()" id="+-" /></td>
-            <td><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></td>
-            <td><input type="button" value="2" onclick="calculadora.does()" id="dos" /></td>
-            <td><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></td>
-            <td><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="(" onclick="calculadora.parentesisAbierto()" id="(" /></td>
-            <td><input type="button" value=")" onclick="calculadora.parentesisCerrado()" id=")" /></td>
-            <td><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></td>
-            <td><input type="button" value="," onclick="calculadora.comas()" id="coma" /></td>
-            <td><input type="button" value="=" onclick="calculadora.result()" id="igual" /></td>
-        </tr>
-    </table>
+    <div id="containerCalculadora">
+        <input type="text" id="resultado" disabled />
+        <div class="grid-container">
+            <script src="CalculadoraCientifica.js"></script>
+            <div class="grid-item"><input type="button" value="MC" onclick="calculadora.cleanM()" id="MC" /></div>
+            <div class="grid-item"><input type="button" value="MR" onclick="calculadora.getM()" id="MR" /></div>
+            <div class="grid-item"><input type="button" value="M+" onclick="calculadora.mMas()" id="M+" /></div>
+            <div class="grid-item"><input type="button" value="M-" onclick="calculadora.mMenos()" id="M-" /></div>
+            <div class="grid-item"><input type="button" value="MS" onclick="calculadora.mAdd()" id="MS" /></div>
+            <div class="grid-item"><input type="button" value="x&#178" onclick="calculadora.elevateTwo()" id="x^2" /></div>
+            <div class="grid-item"><input type="button" value="xⁿ" onclick="calculadora.elevateN()" id="x^y" /></div>
+            <div class="grid-item"><input type="button" value="sin" onclick="calculadora.sin()" id="sin" /></div>
+            <div class="grid-item"><input type="button" value="cos" onclick="calculadora.cos()" id="cos" /></div>
+            <div class="grid-item"><input type="button" value="tan" onclick="calculadora.tan()" id="tan" /></div>
+            <div class="grid-item"><input type="button" value="&#8730" onclick="calculadora.square()" id="square" /></div>
+            <div class="grid-item"><input type="button" value="10ⁿ" onclick="calculadora.expo()" id="10^x" /></div>
+            <div class="grid-item"><input type="button" value="log" onclick="calculadora.logN()" id="log" /></div>
+            <div class="grid-item"><input type="button" value="Exp" onclick="calculadora.exponente()" id="Exp" /></div>
+            <div class="grid-item"><input type="button" value="Mod" onclick="calculadora.mod()" id="Mod" /></div>
+            <div class="grid-item"><input type="button" value="↑" onclick="calculadora.lastResult()" id="flecha" /></div>
+            <div class="grid-item"><input type="button" value="CE" onclick="calculadora.cleanAll()" id="ce" /></div>
+            <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="c" /></div>
+            <div class="grid-item"><input type="button" value="⇐" onclick="calculadora.delete()" id="f_izq" /></div>
+            <div class="grid-item"><input type="button" value="/" onclick="calculadora.divi()" id="division" /></div>
+            <div class="grid-item"><input type="button" value="&#960" onclick="calculadora.pi()" id="pi"/></div>
+            <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
+            <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
+            <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
+            <div class="grid-item"><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></div>
+            <div class="grid-item"><input type="button" value="n!" onclick="calculadora.factorial()" id="factorial" /></div>
+            <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
+            <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
+            <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
+            <div class="grid-item"><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></div>
+            <div class="grid-item"><input type="button" value="&#177" onclick="calculadora.masMenos()" id="+-" /></div>
+            <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
+            <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
+            <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
+            <div class="grid-item"><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></div>
+            <div class="grid-item"><input type="button" value="(" onclick="calculadora.parentesisAbierto()" id="(" /></div>
+            <div class="grid-item"><input type="button" value=")" onclick="calculadora.parentesisCerrado()" id=")" /></div>
+            <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
+            <div class="grid-item"><input type="button" value="," onclick="calculadora.comas()" id="coma" /></div>
+            <div class="grid-item"><input type="button" value="=" onclick="calculadora.result()" id="igual" /></div>
+        </div>
+    </div>
 </body>
 </html>
