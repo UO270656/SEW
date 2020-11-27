@@ -1,0 +1,27 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Servicio Meteorologico</title>
+    <META name="Servicio Meteorologico" CONTENT="Servicio Meteorologico para las ubicaciones de las rutas">
+    <link rel="stylesheet" type="text/css" href="Ejercicio8.css">
+</head>
+
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio8.js"></script>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1 class="principal">Servicio Meteorologico</h1>
+        <nav class="menu">
+        <ul>
+            <li><a onclick="meteo.verJSON(1)">Oviedo</a></li>
+            <li><a onclick="meteo.verJSON(2)">Oneta</a></li>
+            <li><a onclick="meteo.verJSON(3)">Lastres</a></li>
+        </ul>
+        </nav>
+    </header>
+</body>
+</html>
