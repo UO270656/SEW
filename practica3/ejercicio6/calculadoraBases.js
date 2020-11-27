@@ -1,103 +1,166 @@
-"use strict";
 class Calculadora {
 	constructor(){
 		this.resultado=document.getElementById("resultado");
-		this.m1=document.getElementById("m1");
-		this.m2=document.getElementById("m2");
-		this.m3=document.getElementById("m3");
-		this.div=document.getElementById("division");
-		this.mult=document.getElementById("multiplicacion");
-		this.resta=document.getElementById("resta");
-		this.suma=document.getElementById("suma");
-		this.siete=document.getElementById("siete");
-		this.ocho=document.getElementById("ocho");
-		this.nueve=document.getElementById("nueve");
-		this.cuatro=document.getElementById("cuatro");
-		this.cinco=document.getElementById("cinco");
-		this.seis=document.getElementById("seis");
-		this.seis=document.getElementById("seis");
-		this.uno=document.getElementById("uno");
-		this.dos=document.getElementById("dos");
-		this.tres=document.getElementById("tres");
-		this.igual=document.getElementById("igual");
-		this.limpiar=document.getElementById("limpiar");
-		this.punto=document.getElementById("punto");
-		this.cero=document.getElementById("cero");
+		this.modo=1;//Por defecto DEC=1 //DEC=1, HEX=2, BIN=3, OCT=4
+		this.btnDec=document.getElementById("decimal");
+		this.btnHex=document.getElementById("hexadecimal");
+		this.btnBin=document.getElementById("binario");
+		this.btnOct=document.getElementById("octagesimal");
+		
+		this.btnDec.disabled =true;
 	}
 	unos(){
-		resultado.value = resultado.value + "1";
+		this.resultado.value = this.resultado.value + "1";
 	}
 	does(){
-		resultado.value = resultado.value + "2";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "2";
 	}
 	treses(){
-		resultado.value = resultado.value + "3";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "3";
 	}
 	cuatros(){
-		resultado.value = resultado.value + "4";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "4";
 	}
 	cincos(){
-		resultado.value = resultado.value + "5";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "5";
 	}
 	seises(){
-		resultado.value = resultado.value + "6";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "6";
 	}
 	sietes(){
-		resultado.value = resultado.value + "7";
+		if(this.modo!=3)
+			this.resultado.value = this.resultado.value + "7";
 	}
 	ochos(){
-		resultado.value = resultado.value + "8";
+		if(this.modo==1||this.modo==2)
+			this.resultado.value = this.resultado.value + "8";
 	}
 	nueves(){
-		resultado.value = resultado.value + "9";
+		if(this.modo==1||this.modo==2)
+			this.resultado.value = this.resultado.value + "9";
 	}
 	ceros(){
-		resultado.value = resultado.value + "0";
-	}
-	multip(){
-		resultado.value = resultado.value + "*";
-	}
-	divi(){
-		resultado.value = resultado.value + "/";
-	}
-	sumar(){
-		resultado.value = resultado.value + "+";
-	}
-	restar(){
-		resultado.value = resultado.value + "-";
-	}
-	parentesisAbierto(){
-		resultado.value = resultado.value + "(";
-	}
-	parentesisCerrado(){
-		resultado.value = resultado.value + ")";
-	}
-	clean(){
-		resultado.value = "";
-	}
-	result(){
-		str = resultado.value;
-		str.forEach(element => {
-			
-		});
+		this.resultado.value = this.resultado.value + "0";
 	}
 	aes(){
-		resultado.value = resultado.value + "A";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "A";
+		}
 	}
 	bes(){
-		resultado.value = resultado.value + "B";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "B";
+		}
 	}
 	ces(){
-		resultado.value = resultado.value + "C";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "C";
+		}
 	}
 	des(){
-		resultado.value = resultado.value + "D";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "D";
+		}
 	}
 	es(){
-		resultado.value = resultado.value + "E";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "E";
+		}
 	}
 	efes(){
-		resultado.value = resultado.value + "F";
+		if(this.modo==2){
+			this.resultado.value = this.resultado.value + "F";
+		}
 	}
-};
-calculadora = new Calculadora();
+	parentesisAbierto(){
+		this.resultado.value = this.resultado.value + "(";
+	}
+	parentesisCerrado(){
+		this.resultado.value = this.resultado.value + ")";
+	}
+	clean(){
+		this.resultado.value = "";
+	}
+	dec(){
+		if(this.resultado.value!=""){
+			if(this.modo==2){
+				var n=parseInt(this.resultado.value,16);
+				this.resultado.value=n;
+			}else if(this.modo==3){
+				var n=parseInt(this.resultado.value,2);
+				this.resultado.value=n;
+			}else if(this.modo==4){
+				var n=parseInt(this.resultado.value,8);
+				this.resultado.value=n;
+			}
+			this.modo=1;
+			this.btnDec.disabled =true;
+			this.btnHex.disabled=false;
+			this.btnBin.disabled=false;
+			this.btnOct.disabled=false;
+		}
+	}
+	hex(){
+		if(this.resultado.value!=""){
+			if(this.modo==1){
+				var n=parseInt(this.resultado.value);
+				this.resultado.value=n.toString(16);
+			}else if(this.modo==3){
+				var n=parseInt(this.resultado.value,2);
+				this.resultado.value=n.toString(16);
+			}else if(this.modo==4){
+				var n=parseInt(this.resultado.value,8);
+				this.resultado.value=n.toString(16);
+			}
+			this.modo=2;
+			this.btnDec.disabled =false;
+			this.btnHex.disabled=true;
+			this.btnBin.disabled=false;
+			this.btnOct.disabled=false;
+		}
+	}
+	bin(){
+		if(this.resultado.value!=""){
+			if(this.modo==1){
+				var n=parseInt(this.resultado.value);
+				this.resultado.value=n.toString(2);
+			}else if(this.modo==2){
+				var n=parseInt(this.resultado.value,16);
+				this.resultado.value=n.toString(2);
+			}else if(this.modo==4){
+				var n=parseInt(this.resultado.value,8);
+				this.resultado.value=n.toString(2);
+			}
+			this.modo=3;
+			this.btnDec.disabled =false;
+			this.btnHex.disabled=false;
+			this.btnBin.disabled=true;
+			this.btnOct.disabled=false;
+		}
+	}
+	oct(){
+		if(this.resultado.value!=""){
+			if(this.modo==1){
+				var n=parseInt(this.resultado.value);
+				this.resultado.value=n.toString(8);
+			}else if(this.modo==2){
+				var n=parseInt(this.resultado.value,16);
+				this.resultado.value=n.toString(8);
+			}else if(this.modo==3){
+				var n=parseInt(this.resultado.value,2);
+				this.resultado.value=n.toString(8);
+			}
+			this.modo=4;
+			this.btnDec.disabled =false;
+			this.btnHex.disabled=false;
+			this.btnBin.disabled=false;
+			this.btnOct.disabled=true;
+		}
+	}
+}
+var calculadora = new Calculadora();
