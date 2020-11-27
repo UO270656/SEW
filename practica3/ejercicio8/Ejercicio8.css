@@ -18,12 +18,18 @@ h1.principal{
 }
 /*Selector specificity (0,0,1)*/
 h2 {
+    display: flex;
+    align-items: center;
     background-color:  rgb(1, 32, 32); 
     color:rgb(223, 214, 181);
     text-transform: uppercase;
     padding: 30px 25px;
     text-align: center;    
     margin: 0%; 
+}
+img{
+    height:80px;
+    width: 80px;
 }
 /*Selector specificity (0,0,1)*/
 h3{
@@ -97,15 +103,6 @@ nav{
 /*Selector specificity (0,0,1)*/
 div{
     position:relative
-}
-/*Selector specificity (0,0,1)*/
-img{
-    position:relative;
-    float: left;
-    width:40%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 /*Selector specificity (0,0,1)*/
 table{

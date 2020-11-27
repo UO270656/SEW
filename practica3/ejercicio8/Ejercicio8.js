@@ -18,7 +18,7 @@ class Meteo {
                 
                     //PresentaciÃ³n de los datos contenidos en JSON
                     
-					var stringDatos = "<h2>Ciudad: " + datos.name + "</h2>";
+					var stringDatos = "<h2><img src='http://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>Ciudad: " + datos.name + "</h2>";
 						stringDatos += "<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 						stringDatos += "<tbody>"
                         stringDatos += "<tr><td>Pai­s: </td><td>" + datos.sys.country + "</td></tr>";
