@@ -6,7 +6,7 @@ class Meteo {
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
         this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + "," + this.codigoPais + this.unidades + this.idioma + "&APPID=" + this.apikey;
-        this.correcto = "Â¡Todo correcto! JSON recibido de <a href='http://openweathermap.org'>OpenWeatherMap</a>"
+        this.correcto = "Â¡Todo correcto! JSON recibido de <a href='https://openweathermap.org'>OpenWeatherMap</a>"
     }
     cargarDatos(){
         $.ajax({
@@ -18,7 +18,7 @@ class Meteo {
                 
                     //PresentaciÃ³n de los datos contenidos en JSON
                     
-					var stringDatos = "<h2><img src='http://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>Ciudad: " + datos.name + "</h2>";
+					var stringDatos = "<h2><img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>Ciudad: " + datos.name + "</h2>";
 						stringDatos += "<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 						stringDatos += "<tbody>"
                         stringDatos += "<tr><td>Pai­s: </td><td>" + datos.sys.country + "</td></tr>";
@@ -42,7 +42,7 @@ class Meteo {
                     $("p").html(stringDatos);
                 },
             error:function(){
-                $("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
+                $("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://openweathermap.org'>OpenWeatherMap</a>"); 
                 $("h4").remove();
                 $("pre").remove();
                 $("p").remove();
@@ -76,8 +76,8 @@ class Meteo {
         this.codigoPais = "ES";
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + "," + this.codigoPais + this.unidades + this.idioma + "&APPID=" + this.apikey;
-        this.correcto = "Â¡Todo correcto! JSON recibido de <a href='http://openweathermap.org'>OpenWeatherMap</a>"
+        this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + "," + this.codigoPais + this.unidades + this.idioma + "&APPID=" + this.apikey;
+        this.correcto = "Â¡Todo correcto! JSON recibido de <a href='https://openweathermap.org'>OpenWeatherMap</a>"
 	}
 }
 var meteo = new Meteo();

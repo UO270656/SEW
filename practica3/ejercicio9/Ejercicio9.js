@@ -7,7 +7,7 @@ class Meteo {
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
         this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
-        this.correcto = "Â¡Todo correcto! XML recibido de <a href='http://openweathermap.org/'>OpenWeatherMap</a>"
+        this.correcto = "Â¡Todo correcto! XML recibido de <a href='https://openweathermap.org/'>OpenWeatherMap</a>"
     }
     cargarDatos(){
         $.ajax({
@@ -60,7 +60,7 @@ class Meteo {
                     var horaMedidaLocal       = (new Date(horaMedidaMiliSeg1970)).toLocaleTimeString("es-ES");
                     var fechaMedidaLocal      = (new Date(horaMedidaMiliSeg1970)).toLocaleDateString("es-ES");
 
-                    var stringDatos = "<h2><img src='http://openweathermap.org/img/w/" + icon + ".png' alt='Weather icon'>Ciudad: " + ciudad + "</h2>";
+                    var stringDatos = "<h2><img src='https://openweathermap.org/img/w/" + icon + ".png' alt='Weather icon'>Ciudad: " + ciudad + "</h2>";
 						stringDatos += "<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 						stringDatos += "<tbody>"
                         stringDatos += "<tr><td>Pai­s: </td><td>" + pais + "</td></tr>";
@@ -84,7 +84,7 @@ class Meteo {
                     $("p").html(stringDatos);                  
                 },
             error:function(){
-                $("h3").html("Â¡Tenemos problemas! No puedo obtener XML de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
+                $("h3").html("Â¡Tenemos problemas! No puedo obtener XML de <a href='https://openweathermap.org'>OpenWeatherMap</a>"); 
                 $("h4").remove();
                 $("h5").remove();
                 $("p").remove();
@@ -118,8 +118,8 @@ class Meteo {
         this.codigoPais = "ES";
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
-        this.correcto = "Â¡Todo correcto! XML recibido de <a href='http://openweathermap.org/'>OpenWeatherMap</a>"
+        this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
+        this.correcto = "Â¡Todo correcto! XML recibido de <a href='https://openweathermap.org/'>OpenWeatherMap</a>"
 	}
 }
 var meteo = new Meteo();
