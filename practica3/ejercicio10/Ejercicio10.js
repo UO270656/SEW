@@ -49,9 +49,9 @@ class Documento{
 		}
 	}
 	modificarPrincipal(){
-		$("div").remove();
+		$("#divisor").remove();
 		$("#h2Cambniante").html("Hablemos de Blade Runner")
-		var texto = $("<div></div>").append("<p>Blade Runner es una película neo-noir y de ciencia ficción estadounidense dirigida por Ridley Scott, estrenada en 1982. "+
+		var texto = $("<div id='divisor'></div>").append("<p>Blade Runner es una película neo-noir y de ciencia ficción estadounidense dirigida por Ridley Scott, estrenada en 1982. "+
 			"Fue escrita por Hampton Fancher y David Webb Peoples, y el reparto se compone de Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos, M. Emmet Walsh, Daryl Hannah, William Sanderson, Brion James, Joe Turkel y Joanna Cassidy. "+
 			"Está basada parcialmente en la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas? (1968). Es la primera película de la franquicia Blade Runner."+
 			"\n\nInicialmente Blade Runner recibió críticas mixtas de parte de la prensa especializada. Unos se mostraron confundidos y decepcionados de que no tuviese el ritmo narrativo que se esperaba de una película de acción, mientras otros apreciaban su ambientación y complejidad temática. "+
@@ -65,9 +65,9 @@ class Documento{
 		$("#h2Cambniante").after(texto);
 	}
 	modificarProtagonista(){
-		$("div").remove();
+		$("#divisor").remove();
 		$("#h2Cambniante").html("Blade Runner: Protagonistas")
-		var texto = $("<div></div>").append(
+		var texto = $("<div id='divisor'></div>").append(
 		"<ol>"+
 			"<li>Harrison Ford: el protagonista</a></li>"+
 			"<li>Rutger Hauer: el villano</a></li>"+
@@ -78,9 +78,9 @@ class Documento{
 		$("#h2Cambniante").after(texto);
 	}
 	modificarMerchan(){
-		$("div").remove();
+		$("#divisor").remove();
 		$("#h2Cambniante").html("Blade Runner: Comics y Videojuegos");
-		var tabla = $("<div></div>").append("<table>"+
+		var tabla = $("<div id='divisor'></div>").append("<table>"+
 			"<thead>"+
 				"<tr>"+
 					"<th>Año</th>"+
