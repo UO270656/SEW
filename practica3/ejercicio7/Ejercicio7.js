@@ -42,7 +42,7 @@ class Documento{
 	}
 	creameLaTabla(){
 		if(this.modoTabla){
-		var tabla = $("<div></div>").append("<table>"+
+		var tabla = $("<div id='divisorTabla'></div>").append("<table>"+
 			"<thead>"+
 				"<tr>"+
 					"<th>Año</th>"+
@@ -86,7 +86,7 @@ class Documento{
         $("#tablaH2").after(tabla);
 		this.modoTabla=false;
 		}else{
-			$("table").remove();
+			$("#divisorTabla").remove();
 			this.modoTabla=true;
 		}
 	}
