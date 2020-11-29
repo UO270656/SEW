@@ -16,7 +16,7 @@ class Documento{
 	constructor(){
 		this.imagen=new Imagen();
 		this.modoProta=true;
-		this.modoTabla=true;
+		this.modoTabla=false;
 	}
 	mostrarImagen(){
 		this.imagen.mostrar();
