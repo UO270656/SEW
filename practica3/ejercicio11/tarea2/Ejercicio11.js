@@ -40,7 +40,7 @@ class Geo {
         var ubicacion=document.getElementById(dondeVerlo);
         
         if(this.mensaje=="peticion de geolocalizacion correcta"){
-        var datos='<h2>Geolocalizacion con manejo de errores</h2>'; 
+        var datos=''; 
         datos+="<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 		datos+="<tbody>"
         datos+='<tr><td>Longitud: </td><td>'+this.longitud +' grados </td></tr>'; 
