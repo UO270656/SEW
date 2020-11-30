@@ -3,7 +3,7 @@ class Documento{
         if (window.File && window.FileReader && window.FileList && window.Blob){  
             //alert("Este navegador soporta el API File");
         }else {
-            //alert("¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!");
+            alert("¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!");
         }
         this.nombresTiposTamaños;
         this.j=0;

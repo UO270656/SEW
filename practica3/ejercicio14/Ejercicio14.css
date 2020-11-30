@@ -154,3 +154,6 @@ th{
     right:10px; /*A la izquierda deje un espacio de 0px*/
     bottom:0px; /*Abajo deje un espacio de 0px*/
 }
+canvas{
+    margin-left: 10px;
+}

@@ -1,13 +1,17 @@
 class Imagen {
     constructor () {   
 		this.modo=1;
+		var canvas = document.getElementById("myCanvas");
+  		var ctx = canvas.getContext("2d");
+  		var img = document.getElementById("imagenCanvas");
+  		ctx.drawImage(img, 0, 0, 50, 50);
     }
     mostrar(){
 		if(this.modo==1){
-			$("#imagenIndex").hide();
-			this.modo=0;
+			$("#imagenCanvas").hide();
+			this.modo=1;
 		}else{
-			$("#imagenIndex").show();
+			$("#imagenCanvas").show();
 			this.modo=1;
 		}
     }
@@ -21,6 +25,7 @@ class Documento{
 		this.pantalla2=false;
 		this.pantalla3=false;
 		this.actualizarBotones();
+		this.mostrarImagen();
 	}
 	mostrarImagen(){
 		this.imagen.mostrar();
