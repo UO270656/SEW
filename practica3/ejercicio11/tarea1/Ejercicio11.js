@@ -22,7 +22,7 @@ class Geo {
     }
     verTodo(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
-        var datos='<h2>Geolocalizacion</h2>'; 
+        var datos=''; 
         datos+="<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 		datos+="<tbody>"
         datos+='<tr><td>Longitud: </td><td>'+this.longitud +' grados </td></tr>'; 
