@@ -220,7 +220,7 @@ class Documento{
 			"<tr>"+
 			"<td><img src='multimedia/irvine.jpg' id='imagenIndex' alt='Parque_black_park_(escena_unicornio)'>"+
 			"<div id='irvine'></div>"+
-			"<p>Otras locaciones en la ciudad incluyen el Irvine-Byrne Building —conocido posteriormente como Pan American Lofts— para el interior del Hotel Yukon, la Union Station como comisaría de policía, el 2nd Street Tunnel, y la Ennis House, donde se rodó el exterior de la casa de Deckard y que sirvió de inspiración para recrear los interiores de la misma.</p></td>"+
+			"<p>Otras locaciones en la ciudad de Los Ángeles incluyen el Irvine-Byrne Building —conocido posteriormente como Pan American Lofts— para el interior del Hotel Yukon, la Union Station como comisaría de policía, el 2nd Street Tunnel, y la Ennis House, donde se rodó el exterior de la casa de Deckard y que sirvió de inspiración para recrear los interiores de la misma.</p></td>"+
 			"</tr>"+
 			"</table>");
 		$("#h2Cambniante").after(texto);
