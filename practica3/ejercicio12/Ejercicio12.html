@@ -1,0 +1,29 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio 12</title>
+    <META name="Reseña Blade Runner" CONTENT="Descripción detallada de la pelicula Blade Runner">
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio12.js"></script>
+</head>
+
+<body onload="documento.cargarFiles()">
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1 class="principal">Ejercicio 12 SEW 2020</h1>
+    </header>
+    <section>
+    <h2 id="h2Cambniante">Cargador de archivos</h2>
+    <div id="divisor">
+        <input type="file" id="subirArchivos" Value="Elegir archivos" onchange="documento.cargarFiles()" multiple/>
+
+        <p>Tamaño total: <span id="tamaño">0</span></p>
+        <span id="nombres"></span>
+    </div>
+    </section>
+</body>
+</html>
