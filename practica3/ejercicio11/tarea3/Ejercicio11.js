@@ -67,7 +67,7 @@ class Geo {
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<h2>Mapa estático</h2><img src='"+this.imagenMapa+"' id='mapaFoto'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto'/>";
     }
 }
 var miPosicion = new Geo();
