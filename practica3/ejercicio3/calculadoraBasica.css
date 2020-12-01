@@ -1,3 +1,7 @@
+body{
+    font-size: 30px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -24,7 +28,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    font-size: 25px;
+    font-size: 30px;
     margin-right:0ch;
     margin-top: 0ch;
     margin-left: 0ch;
@@ -34,7 +38,7 @@
 #resultado {
     display: block;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 20px;
     width: 280px;
     height: 100px;
@@ -53,4 +57,10 @@
     margin-left: 0ch;
     margin-bottom: 0ch;
     border-radius: 15px;
+}
+
+label{
+    display: none;
+    background-color: gold;
+    color: gold;
 }
