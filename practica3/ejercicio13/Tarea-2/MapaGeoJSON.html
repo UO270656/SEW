@@ -4,23 +4,23 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8">
-    <title>Ejercicio 13.1</title>
-    <META name="Mapa KML" CONTENT="Mapa KML">
-    <link rel="stylesheet" type="text/css" href="MapaKML.css">
+    <title>Ejercicio 13.2</title>
+    <META name="Mapa GeoJSON" CONTENT="Mapa GeoJSON">
+    <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="MapaKML.js"></script>
+    <script src="MapaGeoJSON.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=documento.initMap"></script>
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
     <header>
-        <h1 class="principal">Ejercicio 13.1 SEW 2020</h1>
+        <h1 class="principal">Ejercicio 13.2 SEW 2020</h1>
     </header>
     <section>
-    <h2 id="h2Cambniante">Mapa KML</h2>
+    <h2 id="h2Cambniante">Mapa GeoJSON</h2>
     <div id="divisor">
-        <label for="subirArchivos">API File: Selecionar un archivo KML de la máquina cliente para cargar en el mapa.</label>
+        <label for="subirArchivos">API File: Selecionar un archivo GeoJSON de la máquina cliente para cargar en el mapa.</label>
         <p><input id="subirArchivos" type="file" name="Elegir archivo" onchange="documento.cargarFiles()"></p>
         <div id="map"></div>
     </div>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> <Document id='Universidad de Oviedo'>
+<name>Rutas</name>
+<description>Rutas generadas a partir del fichero xml</description>
+<Style id="yellowLineGreenPoly">
+ <LineStyle>
+ <color>7f00ffff</color>
+ <width>4</width>
+ </LineStyle>
+ <PolyStyle>
+ <color>7f00ff00</color>
+ </PolyStyle>
+ </Style>
+	<Placemark>
+		<name>Ruta del miedevo</name>
+		<description>Esta ruta te permite ver todos los monumentos de la capital en un trazado sinuoso entre los edificios mas caracteristicos de Oviedo</description>
+		<styleUrl>#yellowLineGreenPoly</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>absoluto</altitudeMode>
+			<coordinates> -5.846022,43.365253,200
+			-5.846022,43.365253,225
+			-5.842723,43.360783,227
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Ruta de las cascadas de Oneta</name>
+		<description>Esta ruta te permite contemplar la majestuosidad de las cascadas de Oneta sin realizar un esfuerzo fisico</description>
+		<styleUrl>#yellowLineGreenPoly</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>absoluto</altitudeMode>
+			<coordinates> -6.666817,43.464957,310
+			-6.675045,43.460483,260
+			-6.675580,43.459942,250
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>La costa de los dinosaurios</name>
+		<description>En esta ruta visitaremos el Museo Jurasico de Asturias y deferentes puntos en la costa asturiana donde podremos observar huellas prehistoricas de dinosaurio
+    </description>
+		<styleUrl>#yellowLineGreenPoly</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>absoluto</altitudeMode>
+			<coordinates> -5.274223,43.500924,150
+			-5.247419,43.498144,5
+			-5.2727593,43.520661,15
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document> </kml>

@@ -39,7 +39,7 @@ class Meteo {
                         stringDatos += "<tr><td>Visibilidad: </td><td>" + datos.visibility + " metros</td></tr>";
                         stringDatos += "<tr><td>Nubosidad: </td><td>" + datos.clouds.all + " %</td></tr></table>";
                     
-                    $("p").html(stringDatos);
+                    $("div").html(stringDatos);
                 },
             error:function(){
                 $("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://openweathermap.org'>OpenWeatherMap</a>"); 
@@ -59,12 +59,12 @@ class Meteo {
     }
     verJSON(n){
 		this.actualizaMeteo(n);
-        this.crearElemento("p","","header"); // Crea un elemento con DOM para los datos obtenidos con JSON
+        this.crearElemento("div","","header"); // Crea un elemento con DOM para los datos obtenidos con JSON
         this.cargarDatos();
         $("button").attr("disabled","disabled");
 	}
 	actualizaMeteo(n){
-		$("p").remove();
+		$("div").remove();
 		this.apikey = "fb189e9f58ff017f07f403f11c23a0a8";
 		if(n==1){
 			this.ciudad = "Oviedo";
