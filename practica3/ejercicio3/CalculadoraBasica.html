@@ -10,34 +10,40 @@
 </head>
 
 <body>
-    <h1>Calculadora Basica</h1>
-    <p>Calculadora Basica creada para la asignatura SEW</p>
-    <p>Pagina web que simula una calculadora con todas las funciones básicas que la mayoría de las calculadoras tienen</p>
-<div id="containerCalculadora">
-    <input type="text" id="resultado" disabled />
-    <div class="grid-container">
-        <script src="calculadoraBasica.js"></script>
-        <div class="grid-item"><input type="button" value="mrc" onclick="calculadora.getM()" id="m1" /></div>
-        <div class="grid-item"><input type="button" value="m-" onclick="calculadora.mMenos()" id="m2" /></div>
-        <div class="grid-item"><input type="button" value="m+" onclick="calculadora.mMas()" id="m3" /></div>
-        <div class="grid-item"><input type="button" value="/" onclick="calculadora.divi()" id="division" /></div>
-        <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
-        <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
-        <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
-        <div class="grid-item"><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></div>
-        <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
-        <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
-        <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
-        <div class="grid-item"><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></div>
-        <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
-        <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
-        <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
-        <div class="grid-item"><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></div>
-        <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
-        <div class="grid-item"><input type="button" value="." onclick="calculadora.comas()" id="punto" /></div>
-        <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="limpiar" /></div>
-        <div class="grid-item"><input type="button" value="=" onclick="calculadora.result()" id="igual" /></div>
-    </div>
-</div>
+    <header>
+        h1>Calculadora Basica</h1>
+    </header>
+    <section>
+        <p>Pagina web que simula una calculadora con todas las funciones básicas que la mayoría de las calculadoras tienen</p>
+        <div id="containerCalculadora">
+            <input type="text" id="resultado" disabled />
+            <div class="grid-container">
+                <script src="calculadoraBasica.js"></script>
+                <div class="grid-item"><input type="button" value="mrc" onclick="calculadora.getM()" id="m1" /></div>
+                <div class="grid-item"><input type="button" value="m-" onclick="calculadora.mMenos()" id="m2" /></div>
+                <div class="grid-item"><input type="button" value="m+" onclick="calculadora.mMas()" id="m3" /></div>
+                <div class="grid-item"><input type="button" value="/" onclick="calculadora.divi()" id="division" /></div>
+                <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
+                <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
+                <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
+                <div class="grid-item"><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></div>
+                <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
+                <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
+                <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
+                <div class="grid-item"><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></div>
+                <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
+                <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
+                <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
+                <div class="grid-item"><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></div>
+                <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
+                <div class="grid-item"><input type="button" value="." onclick="calculadora.comas()" id="punto" /></div>
+                <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="limpiar" /></div>
+                <div class="grid-item"><input type="button" value="=" onclick="calculadora.result()" id="igual" /></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Calculadora Basica creada para la asignatura SEW</p>
+    </footer>
 </body>
 </html>
