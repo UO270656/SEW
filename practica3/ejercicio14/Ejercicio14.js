@@ -227,11 +227,12 @@ class Documento{
 			"<div id='irvine'></div>"+
 			"<p>Otras locaciones en la ciudad de Los Ángeles incluyen el Irvine-Byrne Building —conocido posteriormente como Pan American Lofts— para el interior del Hotel Yukon, la Union Station como comisaría de policía, el 2nd Street Tunnel, y la Ennis House, donde se rodó el exterior de la casa de Deckard y que sirvió de inspiración para recrear los interiores de la misma.</p></td>"+
 			"</tr>"+
-			"</table>");
+			"</table><div id='mapa'></div>");
 		$("#h2Cambniante").after(texto);
 		this.getMapaEstaticoBury('bradybury');
 		this.getMapaEstaticoBlack('mapa_black');
-		this.getMapaEstaticoIrvine('irvine')
+		this.getMapaEstaticoIrvine('irvine');
+		this.initMap();
 	}
 	actualizarBotones(){
 		if(this.pantalla1){
@@ -338,5 +339,66 @@ class Documento{
   		var img = document.getElementById("scream");
   		ctx.drawImage(img, 10, 10);
 	}
+	initMap(){
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(this.fun1.bind(this.position), 
+            this.handleLocationError.bind(true)
+          );
+        } else {
+          // Browser doesn't support Geolocation
+          this.handleLocationError(false);
+        }
+    }
+    fun1(position){
+      var centro = {lat: 43.3672702, lng: -5.8502461};
+      var mapaGeoposicionado = new google.maps.Map(document.getElementById('mapa'),{
+      zoom: 8,
+      center:centro,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+      
+      var infoWindow = new google.maps.InfoWindow;
+        var pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+          console.log(this);
+        infoWindow.setPosition(pos);
+        infoWindow.setContent('Localización encontrada');
+        infoWindow.open(mapaGeoposicionado);
+		mapaGeoposicionado.setCenter(pos);
+		var x=new google.maps.Marker({
+			position: new google.maps.LatLng(34.05055955345862 , -118.24749251957593),
+			map: mapaGeoposicionado,
+			title: 'Bradbury Building',
+		});
+		var y=new google.maps.Marker({
+			position: new google.maps.LatLng(51.53862724359793 , -0.5519004423298345),
+			map: mapaGeoposicionado,
+			title: 'Black Park',
+		});
+		var z=new google.maps.Marker({
+			position: new google.maps.LatLng(34.05132796981656 ,-118.24840479734758),
+			map: mapaGeoposicionado,
+			title: 'Irvine-Byrne Building',
+		});
+    }
+    handleLocationError(browserHasGeolocation) {
+      var centro = {lat: 43.3672702, lng: -5.8502461};
+      var pos = centro;
+      var mapaGeoposicionado = new google.maps.Map(document.getElementById('mapa'),{
+      zoom: 8,
+      center:centro,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+      
+      var infoWindow = new google.maps.InfoWindow;
+
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: Ha fallado la geolocalizaciÃ³n' :
+                              'Error: Su navegador no soporta geolocalizaciÃ³n');
+        infoWindow.open(mapaGeoposicionado);
+    }
 }
 var documento= new Documento();
