@@ -59,7 +59,7 @@ class Meteo {
     }
     verJSON(n){
 		this.actualizaMeteo(n);
-        this.crearElemento("p","","header"); // Crea un elemento con DOM para los datos obtenidos con JSON
+        this.crearElemento("div","","header"); // Crea un elemento con DOM para los datos obtenidos con JSON
         this.cargarDatos();
         $("button").attr("disabled","disabled");
 	}
