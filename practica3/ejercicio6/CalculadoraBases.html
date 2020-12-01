@@ -4,38 +4,49 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8">
-    <title>Calculadora</title>
-    <META name="Calculadora Basica" CONTENT="Pagina web que simula una calculadora">
+    <title>Calculadora cambio Bases</title>
+    <META name="Calculadora Bases" CONTENT="Pagina web que simula una calculadora">
     <link rel="stylesheet" type="text/css" href="calculadoraBases.css">
 </head>
 
 <body>
-<div id="containerCalculadora">
-    <input type="text" id="resultado" disabled />
-    <div class="grid-container">
-        <div class="grid-item"><input type="button" value="DEC" onclick="calculadora.dec()" id="decimal" /></div>
-        <div class="grid-item"><input type="button" value="HEX" onclick="calculadora.hex()" id="hexadecimal"/></div>
-        <div class="grid-item"><input type="button" value="BIN" onclick="calculadora.bin()" id="binario" /></div>
-        <div class="grid-item"><input type="button" value="OCT" onclick="calculadora.oct()" id="octagesimal" /></div>
-        <div class="grid-item"><input type="button" value="C" onclick="calculadora.ces()" id="C" /></div>
-        <div class="grid-item"><input type="button" value="D" onclick="calculadora.des()" id="D" /></div>
-        <div class="grid-item"><input type="button" value="E" onclick="calculadora.es()" id="E" /></div>
-        <div class="grid-item"><input type="button" value="F" onclick="calculadora.efes()" id="F" /></div>
-        <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
-        <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
-        <div class="grid-item"><input type="button" value="A" onclick="calculadora.aes()" id="A" /></div>
-        <div class="grid-item"><input type="button" value="B" onclick="calculadora.bes()" id="B" /></div>
-        <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
-        <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
-        <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
-        <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
-        <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
-        <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
-        <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
-        <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
-        <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="limpiar" /></div>
-    </div>
-</div>
+    <header>
+        <h1>SEW 2020</h1>
+    </header>
+    <section>
+        <h2>Calculadora Bases</h2>
+        <p>Pagina web que simula una calculadora que cambia de bases los numeros</p>
+        <div id="containerCalculadora">
+            <label for="resultado">Pantalla Calculadora</label>
+            <input type="text" id="resultado" disabled />
+            <div class="grid-container">
+                <div class="grid-item"><input type="button" value="DEC" onclick="calculadora.dec()" id="decimal" /></div>
+                <div class="grid-item"><input type="button" value="HEX" onclick="calculadora.hex()" id="hexadecimal"/></div>
+                <div class="grid-item"><input type="button" value="BIN" onclick="calculadora.bin()" id="binario" /></div>
+                <div class="grid-item"><input type="button" value="OCT" onclick="calculadora.oct()" id="octagesimal" /></div>
+                <div class="grid-item"><input type="button" value="C" onclick="calculadora.ces()" id="C" /></div>
+                <div class="grid-item"><input type="button" value="D" onclick="calculadora.des()" id="D" /></div>
+                <div class="grid-item"><input type="button" value="E" onclick="calculadora.es()" id="E" /></div>
+                <div class="grid-item"><input type="button" value="F" onclick="calculadora.efes()" id="F" /></div>
+                <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
+                <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
+                <div class="grid-item"><input type="button" value="A" onclick="calculadora.aes()" id="A" /></div>
+                <div class="grid-item"><input type="button" value="B" onclick="calculadora.bes()" id="B" /></div>
+                <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
+                <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
+                <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
+                <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
+                <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
+                <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
+                <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
+                <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
+                <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="limpiar" /></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Calculadora de cambio de Bases creada para la asignatura SEW</p>
+    </footer>
 <script src="calculadoraBases.js"></script>
 </body>
 </html>
