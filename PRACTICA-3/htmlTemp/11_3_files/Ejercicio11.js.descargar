@@ -208,17 +208,17 @@ class Documento{
 			"<p></p>"+
 			"<table id='tablaGeo'>"+
 			"<tr>"+
-			"<td><img src='multimedia/bradybury.jpg' id='imagenIndex' alt='Parque_black_park_(escena_unicornio)'>"+
+			"<td><img src='multimedia/bradybury.jpg' id='imagenbradybury' alt='Bradbury Building'>"+
 			"<div id='bradybury'></div>"+ 
 			"<p>En esta ubicación, el Bradbury Building de Los Ángeles, se grabaron los exteriores y el hall del piso de Sebastian</p></td>"+
 			"</tr>"+
 			"<tr>"+
-			"<td><img src='multimedia/blackPark.jpg' id='imagenIndex' alt='Parque_black_park_(escena_unicornio)'>"+
+			"<td><img src='multimedia/blackPark.jpg' id='imagenblackPark' alt='Parque_black_park_(escena_unicornio)'>"+
 			"<div id='mapa_black'></div>"+
 			"<p>La secuencia del unicornio fue rodada la primera semana de enero de 1982 en el Black Park (Buckinghamshire), un parque cercano a los Shepperton Studios, estudios donde se grabó la posproducción.</p></td>"+
 			"</tr>"+
 			"<tr>"+
-			"<td><img src='multimedia/irvine.jpg' id='imagenIndex' alt='Parque_black_park_(escena_unicornio)'>"+
+			"<td><img src='multimedia/irvine.jpg' id='imagenirvine' alt='Irvine-Byrne Building'>"+
 			"<div id='irvine'></div>"+
 			"<p>Otras locaciones en la ciudad de Los Ángeles incluyen el Irvine-Byrne Building —conocido posteriormente como Pan American Lofts— para el interior del Hotel Yukon, la Union Station como comisaría de policía, el 2nd Street Tunnel, y la Ennis House, donde se rodó el exterior de la casa de Deckard y que sirvió de inspiración para recrear los interiores de la misma.</p></td>"+
 			"</tr>"+
@@ -255,7 +255,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaBury' alt='Bradbury Building'/>";
 	}
 	getMapaEstaticoBlack(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
@@ -269,7 +269,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaBlack' alt='Mapa_Parque_black_park_(escena_unicornio)'/>";
 	}
 	getMapaEstaticoIrvine(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
@@ -283,7 +283,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaIrvine' alt='Irvine-Byrne Building'/>";
     }
 }
 var documento= new Documento();

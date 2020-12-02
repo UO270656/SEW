@@ -81,7 +81,7 @@ class Meteo {
                         stringDatos += "<tr><td>Visibilidad: </td><td>" + visibilidad + " metros</td></tr>";
                         stringDatos += "<tr><td>Nubosidad: </td><td>" + nubosidad + " %</td></tr></table>";
                     
-                    $("p").html(stringDatos);                  
+                    $("div").html(stringDatos);                  
                 },
             error:function(){
                 $("h3").html("Â¡Tenemos problemas! No puedo obtener XML de <a href='https://openweathermap.org'>OpenWeatherMap</a>"); 
@@ -101,12 +101,12 @@ class Meteo {
     }
     verXML(n){
 		this.actualizaMeteo(n);
-        this.crearElemento("p","","header"); // Crea un elemento con DOM para los datos obtenidos con XML
+        this.crearElemento("div","","header"); // Crea un elemento con DOM para los datos obtenidos con XML
         this.cargarDatos();
         $("button").attr("disabled","disabled");
     }
     actualizaMeteo(n){
-		$("p").remove();
+		$("div").remove();
 		this.apikey = "fb189e9f58ff017f07f403f11c23a0a8";
 		if(n==1){
 			this.ciudad = "Oviedo";
