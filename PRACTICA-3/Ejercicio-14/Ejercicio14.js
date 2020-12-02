@@ -261,7 +261,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto'/ onclick='documento.cambiarFoco(this)'>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaBury' alt='Bradbury Building' onclick='documento.cambiarFoco(this)'>";
 	}
 	getMapaEstaticoBlack(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
@@ -275,7 +275,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto' onclick='documento.cambiarFoco(this)'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaBlack' alt='Mapa_Parque_black_park_(escena_unicornio)' onclick='documento.cambiarFoco(this)'/>";
 	}
 	getMapaEstaticoIrvine(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
@@ -289,7 +289,7 @@ class Documento{
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + tamaño + marcador + sensor + apiKey;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaFoto' onclick='documento.cambiarFoco(this)'/>";
+        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' id='mapaIrvine' onclick='documento.cambiarFoco(this)' alt='Irvine-Byrne Building'/>";
 	}
 	modificarBeneficios(){
 		$("#divisor").remove();
