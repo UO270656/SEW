@@ -1,6 +1,23 @@
 class Geo {
     constructor (){
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this));
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), 
+              this.handleLocationError.bind(true)
+            );
+          } else {
+            // Browser doesn't support Geolocation
+            this.handleLocationError(false);
+          }
+    }
+    handleLocationError(browserHasGeolocation) {
+        this.longitud         = 'Error: Ha fallado la geolocalizacion'; 
+        this.latitud          = 'Error: Ha fallado la geolocalizacion';  
+        this.precision        = 'Error: Ha fallado la geolocalizacion';
+        this.altitud          = 'Error: Ha fallado la geolocalizacion';
+        this.precisionAltitud = 'Error: Ha fallado la geolocalizacion';
+        this.rumbo            = 'Error: Ha fallado la geolocalizacion';
+        this.velocidad        = 'Error: Ha fallado la geolocalizacion'; 
     }
     getPosicion(posicion){
         this.longitud         = posicion.coords.longitude; 
