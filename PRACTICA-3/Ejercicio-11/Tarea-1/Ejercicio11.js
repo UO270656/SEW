@@ -3,7 +3,7 @@ class Geo {
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this));
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), 
-              this.handleLocationError.bind(true)
+              this.handleLocationError(true)
             );
           } else {
             // Browser doesn't support Geolocation
@@ -45,7 +45,7 @@ class Geo {
         datos+='<tr><td>Longitud: </td><td>'+this.longitud +' grados </td></tr>'; 
         datos+='<tr><td>Latitud: </td><td>'+this.latitud +' grados </td></tr>';
         datos+='<tr><td>PrecisiÃ³n de la latitud y longitud: </td><td>'+ this.precision +' metros </td></tr>';
-        datos+='<tr><td>Altitud: </td><td>'+ this.altitude +' metros </td></tr>';
+        datos+='<tr><td>Altitud: </td><td>'+ this.altitud +' metros </td></tr>';
         datos+='<tr><td>PrecisiÃ³n de la altitud: </td><td>'+ this.precisionAltitud +' metros </td></tr>'; 
         datos+='<tr><td>Rumbo: </td><td>'+ this.rumbo +' grados </td></tr>'; 
         datos+='<tr><td>Velocidad: </td><td>'+ this.velocidad +' metros/segundo </td></tr></table>';
