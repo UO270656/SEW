@@ -24,7 +24,8 @@ class Documento{
                 this.nombresTiposTamaños += "<table><tr><th>Archivo[" + i +"] </th><td>"+ archivos[i].name  + "</td></tr><tr><th>Tamaño: </th><td>" + archivos[i].size +" bytes </td></tr><tr><th>" + " Tipo: </th><td>" + archivos[i].type+"</td></tr><tr><th> Ultima modificacion: </th><td>"+archivos[i].lastModifiedDate+"</td></tr>" ;
             }
             var tipoTexto = /text.*/;
-            if (archivos[i].type.match(tipoTexto)){
+            var tipoJson = "/*.json/";
+            if (archivos[i].type.match(tipoTexto)||archivos[i].type==="application/json"){
                 this.nombresTiposTamaños += "<tr><th> Contenido </th><td id='text"+i+"'> ";
                 var lector = new FileReader();
                 lector.onload = this.textoDocumento.bind(this);  
