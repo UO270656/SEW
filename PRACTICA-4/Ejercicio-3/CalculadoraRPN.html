@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Calculadora PosFija</title>
+    <meta name="Calculadora PosFija" CONTENT="Pagina web que simula una calculadora">
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css">
+</head>
+
+<body>
+    <header>
+        <h1>SEW 2020</h1>
+    </header>
+    <section>
+        <h2>Calculadora PosFija</h2>
+        <p>Pagina web que simula una calculadora con todas las funciones básicas que la mayoría de las calculadoras tienen en notacion PosFija</p>
+        <div id="containerCalculadora">
+            <label for="resultado">Pantalla Calculadora</label>
+            <textarea readonly class="scrollabletextbox" name="resultado" id="resultado"></textarea>
+            <div class="grid-container">
+                <script src="CalculadoraRPN.js"></script>
+                <div class="grid-item"><input type="button" value="x&#178;" onclick="calculadora.elevateTwo()" id="x^2" /></div>
+                <div class="grid-item"><input type="button" value="xⁿ" onclick="calculadora.elevateN()" id="x^y" /></div>
+                <div class="grid-item"><input type="button" value="sin" onclick="calculadora.sin()" id="sin" /></div>
+                <div class="grid-item"><input type="button" value="cos" onclick="calculadora.cos()" id="cos" /></div>
+                <div class="grid-item"><input type="button" value="tan" onclick="calculadora.tan()" id="tan" /></div>
+                <div class="grid-item"><input type="button" value="&#8730;" onclick="calculadora.square()" id="square" /></div>
+                <div class="grid-item"><input type="button" value="log" onclick="calculadora.logN()" id="log" /></div>
+                <div class="grid-item"><input type="button" value="Exp" onclick="calculadora.exponente()" id="Exp" /></div>
+                <div class="grid-item"><input type="button" value="Mod" onclick="calculadora.mod()" id="Mod" /></div>
+                <div class="grid-item"><input type="button" value="/" onclick="calculadora.divi()" id="division" /></div>
+                <div class="grid-item"><input type="button" value="n!" onclick="calculadora.factorial()" id="factorial" /></div>
+                <div class="grid-item"><input type="button" value="7" onclick="calculadora.sietes()" id="siete" /></div>
+                <div class="grid-item"><input type="button" value="8" onclick="calculadora.ochos()" id="ocho" /></div>
+                <div class="grid-item"><input type="button" value="9" onclick="calculadora.nueves()" id="nueve" /></div>
+                <div class="grid-item"><input type="button" value="*" onclick="calculadora.multip()" id="multiplicacion"/></div>
+                <div class="grid-item"><input type="button" value="&#177;" onclick="calculadora.masMenos()" id="+-" /></div>
+                <div class="grid-item"><input type="button" value="4" onclick="calculadora.cuatros()" id="cuatro" /></div>
+                <div class="grid-item"><input type="button" value="5" onclick="calculadora.cincos()" id="cinco" /></div>
+                <div class="grid-item"><input type="button" value="6" onclick="calculadora.seises()" id="seis" /></div>
+                <div class="grid-item"><input type="button" value="+" onclick="calculadora.sumar()" id="suma" /></div>
+                <div class="grid-item"><input type="button" value="&#960;" onclick="calculadora.pi()" id="pi"/></div>
+                <div class="grid-item"><input type="button" value="1" onclick="calculadora.unos()" id="uno" /></div>
+                <div class="grid-item"><input type="button" value="2" onclick="calculadora.does()" id="dos" /></div>
+                <div class="grid-item"><input type="button" value="3" onclick="calculadora.treses()" id="tres" /></div>
+                <div class="grid-item"><input type="button" value="-" onclick="calculadora.restar()" id="resta" /></div>
+                <div class="grid-item"><input type="button" value="," onclick="calculadora.comas()" id="coma" /></div>
+                <div class="grid-item"><input type="button" value="C" onclick="calculadora.clean()" id="c" /></div>
+                <div class="grid-item"><input type="button" value="0" onclick="calculadora.ceros()" id="cero" /></div>
+                <div class="grid-item"><input type="button" value="ENTER" onclick="calculadora.result()" id="igual" /></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Calculadora PosFija creada para la asignatura SEW</p>
+    </footer>
+</body>
+</html>
