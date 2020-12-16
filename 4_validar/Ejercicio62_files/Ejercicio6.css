@@ -1,6 +1,6 @@
 /*Selector specificity (0,0,1)*/
 body {
-    font-size: 20px;
+    font-size: 22px;
     font-family:Tahoma, serif;
     line-height: 1.8;
     color: rgb(223, 214, 181);
@@ -86,7 +86,7 @@ a{
     background-color:  rgb(7, 15, 36);
 }
 .menu input {
-    font-size: 20px;
+    font-size: 22px;
     display: block;
     padding: 2em;
     background-color: rgb(223, 214, 181);
@@ -107,7 +107,7 @@ a{
 }
 /*Selector specificity (0,0,1)*/
 input{
-    font-size: 20px;
+    font-size: 22px;
     color: #191C26;
     background-color: rgb(223, 214, 181);
     
