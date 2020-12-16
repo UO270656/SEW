@@ -86,6 +86,7 @@ a{
     background-color:  rgb(7, 15, 36);
 }
 .menu input {
+    font-size: 20px;
     display: block;
     padding: 2em;
     background-color: rgb(223, 214, 181);
@@ -106,6 +107,7 @@ a{
 }
 /*Selector specificity (0,0,1)*/
 input{
+    font-size: 20px;
     color: #191C26;
     background-color: rgb(223, 214, 181);
     
