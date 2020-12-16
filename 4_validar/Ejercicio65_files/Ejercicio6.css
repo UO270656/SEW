@@ -141,6 +141,7 @@ table{
   }
 /*Selector specificity (0,0,1)*/
 td{
+    font-size: 28px;
     border:2px solid rgb(255, 129, 0);
 }
 /*Selector specificity (0,0,1)*/
