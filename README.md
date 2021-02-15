@@ -1,8 +1,8 @@
-# SEW
+# Software y Estándares para la Web
 
 ## Descripción
 
-Este repositorio es el usado por el Raúl Alonso García para la realización de la asignatura de Sistemas y Estándares para la Web del tercer curso del grado Ingenieria Informática del Software de la Universidad de Oviedo.
+Este repositorio es el usado por el Raúl Alonso García para la realización de la asignatura de Software y Estándares para la Web del tercer curso del grado Ingenieria Informática del Software de la Universidad de Oviedo.
 
 Fecha de cierre 16 de Diciembre del 2020, finalizacion de la ultima entrega para la convocatoria Ordinaria del curso 2020-2021.
 
